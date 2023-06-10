@@ -1,0 +1,60 @@
+.menu_disabled {
+    display: none;
+}
+
+.menu_background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparentize(black, 0.5);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: Show 0.35s ease-in-out backwards;
+}
+
+.menu {
+    color: white;
+}
+
+@keyframes Show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menu_item {
+    animation: Fade 0.35s ease-in-out backwards;
+    $menu_item_delay: 0.1s;
+    @for $i from 2 through 6 {
+        &:nth-child(#{$i}) {
+            animation-delay: $menu_item_delay * $i;
+        }
+    }
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    &:hover {
+        color: #d3b97a;
+    }
+}
+
+@keyframes Fade {
+    0% {
+        transform: translateX(-10vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

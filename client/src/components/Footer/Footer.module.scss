@@ -1,0 +1,250 @@
+@import 'src/components/PremiaZnanie/PremiaZnanie.module.scss';
+
+.footer_second_text {
+    color: #8f8f8f;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.light {
+    color: white;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.footer_layout {
+    background: #202020;
+}
+
+.footer_first {
+    @include pcWidth {
+        @include minPcWidth;
+        display: flex;
+        justify-content: space-between;
+        padding: 44px 0 37px 0;
+        border-bottom: 1px solid #363636;
+    }
+    @include phoneOrTablet {
+        @include center;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 55px 0 37px 0;
+        border-bottom: 1px solid #363636;
+    }
+}
+
+.footer_intresting,
+.footer_about_links,
+.footer_communication {
+    min-width: 27.5%;
+    display: flex;
+    flex-direction: column;
+    color: hsla(0, 0%, 100%, 0.8);
+    @include phoneOrTablet {
+        min-width: 45%;
+    }
+    & > * {
+        width: max-content;
+        font-style: normal;
+    }
+}
+
+.footer_communication {
+    @include tablet {
+        padding-top: 30px;
+        min-width: 50%;
+    }
+}
+
+.footer_intresting_link,
+.footer_about_link {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    transition: 0.3s all;
+
+    &:hover {
+        @extend .light;
+    }
+
+    @include phoneOrTablet {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.footer_intresting {
+    min-width: 45%;
+}
+
+.footer_intresting_net {
+    display: flex;
+    padding-top: 45px;
+}
+
+.intresting_links_img_wrapper {
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    margin: 0 5px 0 5px;
+    transition: 0.3s all;
+
+    &:hover {
+        border: 1px solid rgba(255, 255, 255);
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+    &:nth-of-type(1) > span {
+        min-height: 11px;
+        min-width: 18px;
+    }
+    &:nth-of-type(2) > span {
+        min-height: 14px;
+        min-width: 18px;
+    }
+    &:nth-of-type(3) > span {
+        min-height: 16px;
+        min-width: 16px;
+    }
+}
+
+.link_img {
+    position: relative;
+}
+
+.footer_about_become {
+    padding-top: 40px;
+}
+
+.footer_about_become_wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    transition: 0.3s all;
+    font-style: normal;
+    &:hover {
+        @extend .light;
+    }
+
+    &:hover > path {
+        stroke: white;
+    }
+
+    @include phoneOrTablet {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.footer_about_become_img {
+    margin-right: 10px;
+}
+
+.footer_about_become_text {
+}
+
+.footer_communication_number {
+    @include pastyearTitle;
+    font-size: 20px;
+    transition: 0.3s all;
+    padding-bottom: 5px;
+    &:hover {
+        color: white;
+        transition: 0.3s all;
+        cursor: pointer;
+    }
+}
+
+.footer_communication_decryption {
+    @include footerSupport;
+    padding: 15px 0 7px 0;
+}
+
+.footer_communication_feedback {
+    transition: 0.3s all;
+
+    &:hover {
+        @extend .light;
+    }
+}
+
+.footer_communication_address_text {
+    @include footerSupport;
+    padding: 27px 0 10px 0;
+}
+
+.footer_communication_address {
+    width: 100%;
+    @include footerSupport;
+    color: #d2d2d2;
+    @include phoneOrTablet {
+        max-width: 60%;
+    }
+}
+
+.footer_second {
+    @include pcWidth {
+        @include minPcWidth;
+        padding: 35px 0 35px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    @include phoneOrTablet {
+        @include center;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+.footer_second_znanie,
+.footer_documents,
+.footer_statutes {
+    @include forPc {
+        min-width: 27.5%;
+    }
+}
+
+.footer_documents {
+    @include phoneOrTablet {
+        padding-top: 24px;
+    }
+}
+
+.footer_second_znanie {
+    @extend .footer_second_text;
+    min-width: 45%;
+    transition: 0.3s all;
+
+    &:hover {
+        @extend .light;
+    }
+
+    @include phoneOrTablet {
+        order: 5;
+        padding-bottom: 64px;
+    }
+}
+
+.documents_item,
+.statutes_item,
+.footer_second_znanie {
+    display: inline-block;
+    transition: 0.3s all;
+    @extend .footer_second_text;
+
+    &:hover {
+        @extend .light;
+    }
+
+    @include phoneOrTablet {
+        font-size: 12px;
+        line-height: 32px;
+    }
+}

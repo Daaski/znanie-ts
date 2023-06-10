@@ -1,0 +1,1 @@
+export {UserContent} from 'components/Profile/UserContent/UserContent'

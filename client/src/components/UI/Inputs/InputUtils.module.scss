@@ -1,0 +1,110 @@
+@import "src/sccs/globals";
+
+.field {
+  margin-top: 5px;
+  min-width: 210px;
+  height: 100px;
+  width: 100%;
+}
+
+.field_textarea {
+  @extend .field;
+  height: 230px;
+}
+
+.input_wrapper {
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  @include phone {width: 100%}
+  & > div[data-tippy-root] {
+    width: 100%;
+  }
+}
+
+
+.label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.input_select_wrapper {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 58px;
+  outline: none;
+  border: 1px solid #afc1d9;
+  border-radius: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  background-color: #f5f6f7;
+  @include phone {
+    width: 100%;
+  }
+  &:focus {
+    border: 1px solid #426fff;;
+    transition: .2s all;
+  }
+  &:disabled {
+    background-color: rgb(234, 236, 239);
+    pointer-events: none;
+  }
+}
+
+.input_textarea {
+  @extend .input;
+  font: inherit;
+  min-height: 170px;
+  padding-top: 10px;
+  resize: none;
+  &:disabled {
+    background-color: rgb(234, 236, 239);
+  }
+}
+
+.input_textarea_error {
+  @extend .input_textarea;
+  &:focus {
+    border: 1px solid #ed694a;
+    transition: .2s all;
+  }
+  border: 1px solid #ed694a;;
+}
+
+.textarea_length {
+  text-align: right;
+  font-size: 14px;
+  color: #898A8C;
+}
+
+.input_error {
+  @extend .input;
+  &:focus {
+    border: 1px solid #ed694a;
+    transition: .2s all;
+  }
+  border: 1px solid #ed694a;;
+}
+
+.input_error_label {
+  width: 100%;
+  color: #ed694a;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+
+.pass_img {
+  position: absolute;
+  right: 15px;
+  top: 65%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

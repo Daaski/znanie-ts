@@ -1,0 +1,114 @@
+
+.date_picker_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 0 12px;
+  transition: .1s all ease-in-out;
+  &:hover {
+    transform: translateY(-7%);
+    transition: .1s all ease-in-out;
+  }
+}
+
+.date_picker_wrapper {
+  :global {
+    .react-datepicker-wrapper .react-datepicker__close-icon {
+      &:after {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: 1px;
+        background-color: transparent;
+        color: black;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.popper_class {
+    z-index: 9999;
+}
+
+.another_date {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 14px rgb(0 0 0 / 15%);
+  :global {
+    .react-datepicker__current-month {
+      padding-bottom: 15px;
+    }
+    .react-datepicker__day-names .react-datepicker__day-name {
+      color: #aaa;
+    }
+    .react-datepicker {
+      background: white;
+      border: none;
+      box-shadow: 0 5px 14px rgb(0 0 0 / 15%);
+      border-radius: 12px;
+    }
+    .react-datepicker__triangle {
+      display: none;
+    }
+    .react-datepicker__header {
+      background: white;
+      border-color: white;
+    }
+    .react-datepicker__day--keyboard-selected {
+      border-radius: 50%;
+      background-color: #426fff;
+      color: white;
+    }
+    .react-datepicker__day--in-range {
+      border-radius: 50%;
+      background-color: #426fff;
+      color: white;
+    }
+    .react-datepicker__day--in-selecting-range {
+      border-radius: 50%;
+      background-color: #426fff;
+      color: white;
+    }
+    .react-datepicker__current-month {
+      text-transform: capitalize;
+    }
+    .react-datepicker__navigation-icon {
+      &:before {
+        border-width: 2px 2px 0 0;
+        height: 6px;
+        width: 6px;
+        border-color: black;
+      }
+    }
+    .react-datepicker__day {
+      &:hover {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.date_picker {
+  width: max-content;
+}
+
+.custom_input {
+  height: 45px;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom_input_svg {
+  margin-right: 10px;
+}

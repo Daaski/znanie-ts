@@ -1,0 +1,148 @@
+@import "src/sccs/globals";
+
+.role_not_found {
+  @include minPcWidth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  margin: 50px auto;
+  border-radius: 22px;
+  background-color: #f5f6f7;
+  @include phoneOrTablet {
+    padding: 30px 25px;
+  }
+}
+
+.role_image {
+  max-height: 500px;
+  max-width: 450px;
+  margin-bottom: 30px;
+  @include phoneOrTablet {
+    max-height: 350px;
+    max-width: 300px;
+  }
+  @include phone {
+    max-height: 250px;
+    max-width: 250px;
+  }
+}
+
+.role_text {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  text-align: center;
+  @include phoneOrTablet {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  @include phone {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.become_lector_container {
+  @include minPcWidth;
+  padding: 50px 40px;
+  border: 1px solid #dfe1e3;
+  border-radius: 22px;
+  margin: 37px auto 238px auto;
+  @include phoneOrTablet {
+    padding: 33px 15px 40px;
+  }
+}
+
+.become_lector_wrapper {
+  @include phone {
+    width: 100%;
+  }
+}
+
+.become_lector_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.title_with_arrow {
+  display: flex;
+  align-items: center;
+}
+
+.back_arrow {
+  width: 20px;
+  height: 15px;
+  color: $hover-color;
+  transform: rotate(-180deg);
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.become_lector_header_title {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.become_lector_header_pages {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.become_lector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  @include thousendWidth {
+    justify-content: center;
+  }
+}
+
+.become_lector_image_wrapper {
+  position: relative;
+  display: flex;
+  margin: 100px 0 0 35px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  max-width: 100%;
+  @include thousendWidth {
+    display: none;
+  }
+}
+
+.become_lector_image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40vw;
+}
+
+.become_lector_form {
+  min-width: 400px;
+  @include phone {
+    min-width: 100%;
+  }
+}
+
+.next_page_button {
+  grid-area: nextButton;
+  margin-top: 20px;
+}
+
+.login_button_wrapper {
+  width: 50%;
+  @include phoneOrTablet {
+    width: 75%;
+  }
+  @include phoneOrTablet {
+    width: 100%;
+  }
+}

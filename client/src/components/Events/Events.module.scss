@@ -1,0 +1,10 @@
+@import "src/sccs/globals";
+
+.events_container {
+  @include minPcWidth;
+}
+
+.events_header {
+  margin: 20px 0;
+  font-weight: 400;
+}

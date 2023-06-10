@@ -1,0 +1,14 @@
+<svg
+        viewBox="0 0 22 22"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="22"
+        data-testid="roz-logo"
+        color="white"
+>
+    <path
+            d="M22 15.585v-9.17A6.423 6.423 0 0 0 15.585 0h-9.17A6.423 6.423 0 0 0 0 6.415v9.17a6.389 6.389 0 0 0 5.757 6.374l6.744-5.47H5.222v-2.631l7.197-5.88H5.51V5.469h11.226v2.632L9.54 13.98h7.196v2.632L10.116 22h5.469A6.423 6.423 0 0 0 22 15.585Z"
+            fill="currentColor"
+    />
+</svg>

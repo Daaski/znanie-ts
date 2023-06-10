@@ -1,0 +1,136 @@
+@import "src/sccs/globals";
+
+.lectors_wrapper {
+  @include minPcWidth;
+  @include center;
+  padding-top: 20px;
+}
+
+.lectors_title {
+  font-size: 48px;
+  line-height: 46px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  padding-bottom: 20px;
+  @include phoneOrTablet {
+    font-size: 28px;
+    letter-spacing: -.03em;
+  }
+}
+
+.lectors_content {
+  display: flex;
+  flex-direction: column;
+  @include phoneOrTablet {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+
+.lectors_filter_wrapper {
+  position: sticky;
+  top: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 30px;
+  background: white;
+  z-index: 100;
+  @include phoneOrTablet {
+    height: max-content;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 30px;
+  }
+}
+
+
+.lectors_filter {
+  height: 60px;
+  min-width: 1200px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f5f6f7;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 0 30px;
+  overflow-x: auto;
+  @include phoneOrTablet {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-height: 500px;
+    border-color: white;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.filter_letter_wrapper {
+  position: relative;
+  min-width: 16px;
+  @include phoneOrTablet {
+    min-height: 25px;
+  }
+  &:after {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: -15px;
+    background-color: #ececec;
+    @include phoneOrTablet {
+      height: 3px;
+      width: 3px;
+      top: -5px;
+      left: 2px;
+    }
+  }
+}
+
+.filter_letter {
+  font-size: 24px;
+  line-height: 26px;
+  cursor: pointer;
+  color: #666c77;
+  &:hover {
+    color: $hover-color;
+  }
+  @include phoneOrTablet {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.filter_letter_active {
+  @extend .filter_letter;
+  color: $hover-color;;
+}
+
+.lectors_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.lectors_letter {
+  font-size: 48px;
+  line-height: 46px;
+  color: #666c77;
+  font-weight: 400;
+  margin-bottom: 20px;
+  @include phoneOrTablet {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+}
+

@@ -1,0 +1,41 @@
+@import 'src/components/header/dropdowns/utils.module';
+
+.dropdown_wrapper {
+  @include wrapper(258);
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown_item_wrapper {
+
+  cursor: pointer;
+}
+
+.dropdown_img_wrapper {
+  position: relative;
+  width: 43px;
+  height: 43px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b498eb;
+  transition: 0.5s all;
+}
+
+li {
+  &:nth-of-type(2) .dropdown_img_wrapper {
+    background: #fb8d73;
+  }
+  &:nth-of-type(3) .dropdown_img_wrapper {
+    background: #5574d8;
+  }
+  &:nth-of-type(4) .dropdown_img_wrapper {
+    background: #202020;
+  }
+}
+
+.dropdown_text {
+  margin-left: 24px;
+}

@@ -1,0 +1,138 @@
+$main-color: #d3b97a;
+$text-color: #565656;
+
+.video {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+@mixin maxPcWidth() {
+    max-width: 1600px;
+    width: calc(100% - (30px));
+    margin: 0 auto;
+    @content;
+}
+
+@mixin minPcWidth() {
+    max-width: 1400px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+@mixin center() {
+    width: calc(100% - (30px));
+    margin: 0 auto;
+}
+
+@mixin pcWidth() {
+    @media (min-width: 769px) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: 480px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin phone() {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin phoneOrTablet() {
+    @media (max-width: 769px) {
+        @content;
+    }
+}
+
+@mixin forPc() {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin notPc() {
+    @media (max-width: 1201px) {
+        @content;
+    }
+}
+
+@mixin bigtablet() {
+    @media (max-width: 989px) {
+        @content;
+    }
+}
+
+@mixin text() {
+    font: {
+        size: 18px;
+        weight: 400;
+    }
+    color: $text-color;
+    line-height: 26px;
+}
+
+@mixin mainTitle() {
+    font: {
+        size: 2.8em;
+        weight: 400;
+    }
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+@mixin title() {
+    font: {
+        size: 1em;
+        weight: 700;
+    }
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+@mixin displayFlexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin pastyearTitle() {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+@mixin pastyearAmount() {
+    font: {
+        weight: 300;
+        size: 88px;
+    }
+    color: $main-color;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+@mixin pastyearCards() {
+    border: 1px solid #c6c6c6;
+    border-radius: 20px;
+    padding: 60px 43px 70px 51px;
+}
+
+@mixin footerSupport() {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8f8f8f;
+}

@@ -1,0 +1,14 @@
+<svg
+        viewBox="0 0 16 9"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="12"
+        height="12"
+        data-testid="arrow-accordion"
+        color="#181818"
+>
+    <path
+            d="M8.707 8.707a1 1 0 0 1-1.414 0L.929 2.343A1 1 0 0 1 2.343.93L8 6.586 13.657.929a1 1 0 1 1 1.414 1.414L8.707 8.707ZM9 7v1H7V7h2Z"
+            fill="currentColor"
+    />
+</svg>

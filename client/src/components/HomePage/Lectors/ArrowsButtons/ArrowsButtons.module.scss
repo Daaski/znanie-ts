@@ -1,0 +1,26 @@
+.arrows_wrapper {
+  min-height: 45px;
+  min-width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #666c77;
+  cursor: pointer;
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.prev {
+  transform: rotate(90deg);
+  width: 32px;
+  color: #666c77;
+}
+
+.next {
+  transform: rotate(-90deg);
+  width: 32px;
+  color: #666c77;
+}

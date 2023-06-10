@@ -1,0 +1,54 @@
+.profile_sidebar {
+  max-height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 290px;
+  background: gray;
+  border-radius: 30px;
+  padding: 30px 15px;
+  background: linear-gradient(0deg,#202020,#202020),#effafe;
+}
+
+.user_avatar {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_avatar_img_wrapper {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.user_avatar_img {
+  border-radius: 50%;
+}
+
+.change_img_wrapper {
+  position: absolute;
+  left: calc(50% - 15px);
+  bottom: 28px;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: transparentize(black, 0.9);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user_avatar_fullname {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}

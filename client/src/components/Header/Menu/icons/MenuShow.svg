@@ -1,0 +1,15 @@
+<svg
+
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        data-testid="burger"
+        color="#181818"
+>
+    <path
+            d="M23 12.98H1a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2ZM23 5.313H1a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2ZM23 20.646H1a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2Z"
+            fill="currentColor"
+    />
+</svg>

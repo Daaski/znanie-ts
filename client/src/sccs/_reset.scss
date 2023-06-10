@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: FavoritPro, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-clip: content-box;
+        background-color: transparentize(black, 0.9);
+    }
+}
+img {
+    max-width: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}

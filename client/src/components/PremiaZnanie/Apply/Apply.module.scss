@@ -1,0 +1,225 @@
+@import 'src/components/PremiaZnanie/PremiaZnanie.module.scss';
+
+.button {
+    font-size: 18px;
+    padding: 20px 75px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.apply_layout_bg {
+    background: url('/images/PremiaZnanie/applybg.png') center/cover no-repeat;
+    padding: 76px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.apply_layout_bg_video {
+    @extend .video;
+}
+
+.apply_layout_wrapper {
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    width: calc(100% - 30px);
+    @include bigtablet {
+        width: calc(100% - 30px);
+    }
+}
+
+.apply_wrapper {
+    @include pcWidth {
+        padding: 80px 120px 100px;
+    }
+    @include bigtablet {
+        padding: 40px 50px;
+        width: 100%;
+    }
+    @include phoneOrTablet {
+        width: calc(100% - 50px);
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 35px 0 0 0;
+    }
+}
+
+.apply_header_wrapper {
+    @include pcWidth {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    @include notPc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    @include phone {
+        padding: 0 15px;
+    }
+}
+
+.apply_title_wrapper {
+    @include forPc {
+        width: 71%;
+        padding-bottom: 35px;
+    }
+}
+
+.apply_title {
+    @include mainTitle;
+    padding: 0 0 35px 0;
+    @include bigtablet {
+        font-size: 28px;
+    }
+}
+
+.apply_text {
+    @include text;
+    padding-bottom: 40px;
+    @include phoneOrTablet {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.apply_text_link {
+    color: #5574d8;
+}
+
+.apply_button {
+    @extend .button;
+    align-self: flex-start;
+    color: white;
+    background: #181818;
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover,
+    &:after {
+        background: black;
+        transition: 0.5s all;
+    }
+
+    @include phone {
+        width: 100%;
+        font-size: 18px;
+        padding: 25px 0;
+    }
+}
+
+.apply_awards_wrapper {
+    @include pcWidth {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        padding-top: 30px;
+    }
+    @include bigtablet {
+        display: flex;
+        flex-direction: column;
+        &:last-child {
+            border-bottom: 1px solid #bfbfbf;
+        }
+    }
+    @include phoneOrTablet {
+        padding-top: 40px;
+        &:last-child {
+            margin-bottom: 28px;
+        }
+    }
+}
+
+.apply_awards_item_wrapper {
+}
+
+.apply_awards_item {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    border-top: 1px solid #bfbfbf;
+    transition: 0.5s all;
+    color: black;
+    font-weight: 400;
+    @include pcWidth {
+        &:hover,
+        &:after {
+            background: black;
+            cursor: pointer;
+            transition: 0.5s all;
+        }
+
+        &:hover .apply_awards_item_title {
+            color: $main-color;
+        }
+
+        &:hover .apply_awards_item_description {
+            color: white;
+        }
+    }
+    @include phoneOrTablet {
+        padding: 15px 0;
+    }
+}
+
+.apply_disabled {
+    display: none;
+}
+
+.apply_awards_item_description {
+    padding-left: 60px;
+    transition: 0.5s all;
+    padding-top: 15px;
+    @include phone {
+        padding: 20px 0 0 0;
+    }
+}
+
+.apply_awards_item_text {
+    padding-bottom: 34px;
+    line-height: 20px;
+}
+
+.apply_awards_item_header {
+    display: flex;
+    align-items: center;
+}
+
+.apply_awards_item_list {
+}
+
+.apply_list_item_img {
+    min-width: 14px;
+    min-height: 16px;
+    margin-right: 25px;
+    color: $main-color;
+}
+
+.apply_awards_item_list_item {
+    display: flex;
+    padding-bottom: 22px;
+}
+.apply_awards_item_img {
+    position: relative;
+    margin-right: 35px;
+    min-width: 28px;
+    min-height: 28px;
+    @include phone {
+        min-width: 20px;
+        min-height: 20px;
+        margin-right: 20px;
+    }
+}
+
+.apply_awards_item_title {
+    transition: 0.5s all;
+    @include title;
+    @include phoneOrTablet {
+        font-size: 14px;
+    }
+}

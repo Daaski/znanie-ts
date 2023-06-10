@@ -1,0 +1,1 @@
+export { ImgModal } from './ImgModal';

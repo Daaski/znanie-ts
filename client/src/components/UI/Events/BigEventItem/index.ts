@@ -1,0 +1,1 @@
+export { BigEventItem } from './BigEventItem';

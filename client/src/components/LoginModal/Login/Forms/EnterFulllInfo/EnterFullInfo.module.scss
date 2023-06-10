@@ -1,0 +1,30 @@
+@import "../../../../../sccs/globals";
+
+.submit_button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 40px;
+  margin-top: 15px;
+  background: #426fff;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: .3s all;
+  @include phoneOrTablet {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  &:hover {
+    background: #2b54da;
+    transition: .3s all;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    background: #e2e6ed;
+    color: #afb9cc;
+    &:hover {
+      background: #e2e6ed;
+    }
+  }
+}

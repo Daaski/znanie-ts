@@ -1,0 +1,65 @@
+@import "src/sccs/globals";
+@import "src/components/Header/dropdowns/utils.module.scss";
+
+.profile_pick {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+.dropdown_wrapper {
+  @include wrapper(300);
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  padding: 20px 24px;
+}
+
+.dropdown_name {
+  color: #222;
+  flex: 1 1;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  overflow: hidden;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile_link {
+  margin: 20px 0;
+  color: #666c77;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 29px;
+  transition: color .3s ease;
+  &:hover {
+    color: #5574d8;
+  }
+}
+
+.user_exit_wrapper {
+  width: 100%;
+  border-top: 1px solid #d6ddea;
+  padding: 10px 0;
+}
+
+.user_exit {
+  display: inline-block;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #666c77;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 29px;
+  transition: color .3s ease;
+  &:hover {
+    color: #5574d8;
+  }
+}

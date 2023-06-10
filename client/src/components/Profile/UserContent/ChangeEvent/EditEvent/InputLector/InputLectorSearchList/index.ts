@@ -1,0 +1,1 @@
+export { InputLectorSearchList } from './InputLectorSearchList';

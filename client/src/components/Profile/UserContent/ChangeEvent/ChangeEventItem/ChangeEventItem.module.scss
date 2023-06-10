@@ -1,0 +1,66 @@
+@import "src/sccs/globals";
+
+
+
+.event_item_wrapper {
+  position: relative;
+  cursor: pointer;
+  &:hover .event_item_tooltip {
+    opacity: 1;
+    background: transparentize(black, .7);
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+  }
+  @include thousendWidth {
+    &:hover .event_item_tooltip{
+      border-radius: 15px;
+    }
+  }
+}
+
+.event_item_tooltip {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: 30px;
+  transition: .3s all ease-in-out;
+  opacity: 0;
+  @include thousendWidth {
+    border-radius: 15px;
+  }
+}
+
+.event_item_setting {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 30px 10px 0;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+  font-size: 14px;
+  background: white;
+  transition: .3s all ease-in-out;
+  &:last-child {
+    margin-bottom: 25px;
+  }
+  &:hover {
+    background: #ECECEC;
+  }
+  &:active {
+    background: #D3D3D3;
+  }
+  @include phoneOrTablet {
+    font-size: 14px;
+    width: 120px;
+    padding: 5px;
+  }
+}

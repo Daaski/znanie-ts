@@ -1,0 +1,1 @@
+export { LectorItem } from './LectorItem';

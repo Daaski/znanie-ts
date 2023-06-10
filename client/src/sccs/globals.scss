@@ -1,0 +1,108 @@
+$hover-color: #5574d8;
+
+@mixin center() {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+@mixin pcWidth() {
+    max-width: 1400px;
+    @include center;
+}
+
+@mixin minPcWidth() {
+    max-width: 1280px;
+    @include center;
+}
+
+@mixin thousendTwoWidth() {
+    @media (max-width: 1200px) {
+        @content
+    }
+}
+
+@mixin thousendWidth() {
+    @media (max-width: 1000px) {
+        @content;
+    }
+}
+
+@mixin notTablet() {
+    @media (min-width: 769px) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: 480px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin phone() {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin phoneOrTablet() {
+    @media (max-width: 769px) {
+        @content;
+    }
+}
+
+@mixin bigtablet() {
+    @media (max-width: 989px) {
+        @content;
+    }
+}
+
+@mixin smallTablet() {
+    @media (max-width: 660px) {
+        @content;
+    }
+}
+
+.button_style {
+    font-size: 18px;
+    padding: 20px 75px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@mixin darker{
+    background: transparentize(black, .9) center/cover;
+    &:before {
+        content: "";
+        width: 100%;
+        height: 50%;
+        display: block;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        position: absolute;
+        bottom: 0;
+        z-index: 200;
+        background: linear-gradient(to top, transparentize(black, .35), transparentize(black, 0.85));
+        @include thousendWidth {
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
+    &:after {
+        content: "";
+        width: 100%;
+        height: 50%;
+        display: block;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        position: absolute;
+        top: 0;
+        z-index: 200;
+        background: transparentize(black, .85);
+        @include thousendWidth {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    }
+}
+

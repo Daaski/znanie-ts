@@ -1,0 +1,58 @@
+@import "src/sccs/globals";
+
+.profile_content_header {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  overflow-x: auto;
+  border-bottom: 1px solid #e8e8e8;
+  &::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    height: 0;
+  }
+}
+
+.profile_content_header_button {
+  position: relative;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 28px 0;
+  font: inherit;
+  white-space: nowrap;
+  margin-right: 60px;
+  cursor: pointer;
+  color: #666c77;
+  transition: .3s all ease-in-out;
+  @include phoneOrTablet {
+    font-size: 14px;
+    padding: 20px 0 18px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: black;
+    transition: .3s all ease-in-out;
+  }
+
+  &:before {
+    background-color: #181818;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    transition: width .3s ease;
+    width: 0;
+  }
+}
+
+.profile_content_header_button_active {
+  @extend .profile_content_header_button;
+
+  &:before {
+    width: 100%;
+  }
+}

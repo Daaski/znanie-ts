@@ -1,0 +1,65 @@
+@import "src/sccs/globals";
+
+.searchlist_container {
+  width: 100%;
+  position: relative;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  &:hover {
+    ::-webkit-scrollbar
+    {
+      display: block;
+    }
+  }
+  z-index: 999;
+}
+
+.searchlist_wrapper {
+  position: relative;
+  max-height: 200px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 5px 14px rgb(0 0 0 / 15%);
+  border-radius: 15px;
+  color: #666c77;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.searchlist {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.searchlist_item {
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background: #f5f6f7;
+  }
+
+  @include phone {
+    font-size: 16px;
+  }
+}
+
+.searchlist_item_text {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.no_such_places {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: #ACADAF;
+  font-size: 16px;
+  @include phone {
+    font-size: 14px;
+  }
+}

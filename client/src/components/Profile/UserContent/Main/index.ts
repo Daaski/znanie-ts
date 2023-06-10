@@ -1,0 +1,1 @@
+export {Main} from 'components/Profile/UserContent/Main/Main'
