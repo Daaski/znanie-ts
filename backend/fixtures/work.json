@@ -1,0 +1,34 @@
+[
+  {
+    "model": "users.work",
+    "pk": 1,
+    "fields": {
+      "place": "JetBrains",
+      "position": "Системный администратор"
+    }
+  },
+  {
+    "model": "users.work",
+    "pk": 2,
+    "fields": {
+      "place": "Yandex",
+      "position": "Тестировщик"
+    }
+  },
+  {
+    "model": "users.work",
+    "pk": 3,
+    "fields": {
+      "place": "Nexign",
+      "position": "Тимлид"
+    }
+  },
+  {
+    "model": "users.work",
+    "pk": 4,
+    "fields": {
+      "place": "T-Systems",
+      "position": "Гейм-дизайнер"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "users.user_likes",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "event": 2
+    }
+  },
+  {
+    "model": "users.user_likes",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "event": 1
+    }
+  },
+  {
+    "model": "users.user_likes",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "event": 2
+    }
+  }
+]

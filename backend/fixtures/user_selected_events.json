@@ -1,0 +1,18 @@
+[
+  {
+    "model": "users.user_selected_events",
+    "pk": 1,
+    "fields": {
+      "user": 4,
+      "event": 1
+    }
+  },
+  {
+    "model": "users.user_selected_events",
+    "pk": 2,
+    "fields": {
+      "user": 4,
+      "event": 2
+    }
+  }
+]

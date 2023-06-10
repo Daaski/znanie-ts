@@ -1,0 +1,275 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$MTViAiujlvRxpo7eYlnE8K$5fZ1oNN2KGxurb/doiboTDxniUemru7WKYsgWb7dnnE=",
+      "last_login": null,
+      "phone": "+79500211520",
+      "surname": "Иванов",
+      "name": "Иван",
+      "patronymic": " Иванович",
+      "birthdate": "1999-10-10",
+      "gender": "male",
+      "address": 1,
+      "email": "ivan@mail.ru",
+      "image": "user/default_user.png",
+      "work": 1,
+      "education": 1,
+      "role": "admin",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79500212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$7QuBLSnj2QkTzan9dLSszb$D5f4ZbC2pIehYME3VBUW6z8CAnUoNTsYQkRh+bzHhcU=",
+      "last_login": null,
+      "phone": "+79500212051",
+      "surname": "Романов",
+      "name": "Николай",
+      "patronymic": "Николаевич",
+      "birthdate": "1988-09-10",
+      "gender": "male",
+      "address": 3,
+      "email": "nikolai@mail.ru",
+      "image": "user/default_user.png",
+      "work": 3,
+      "education": 3,
+      "role": "user",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$8DvHAmvpXzHLfpGSlIR6AN$8PTtTrCQXwV4A8LI3PyeJSOB2QA9M7ozZ5UUqZJCiN0=",
+      "last_login": null,
+      "phone": "+79500212056",
+      "surname": "Божко",
+      "name": "Артур",
+      "patronymic": "Артурович",
+      "birthdate": "1996-09-22",
+      "gender": "male",
+      "address": 4,
+      "email": "artur@mail.ru",
+      "image": "user/default_user.png",
+      "work": 4,
+      "education": 4,
+      "role": "user",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79534512015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy1@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79900212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy2@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79800212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy3@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79700212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy4@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79600212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy5@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79400212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy6@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79300212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy7@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79200212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy8@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jAfup2r1DkN9tCWhKIRRs8$6IntPSp88BY3Dq9HcrxA+OXm0RFR5uy1WijQuAvUgYQ=",
+      "last_login": null,
+      "phone": "+79100212015",
+      "surname": "Соболев",
+      "name": "Дмитрий",
+      "patronymic": "Дмитриевич",
+      "birthdate": "1989-10-10",
+      "gender": "male",
+      "address": 2,
+      "email": "dmitriy9@mail.ru",
+      "image": "user/default_user.png",
+      "work": 2,
+      "education": 2,
+      "role": "lector",
+      "is_active": true
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "users.education",
+    "pk": 1,
+    "fields": {
+      "place": 1,
+      "graduated_year": "2019",
+      "major": "Информационные системы и технологии"
+    }
+  },
+  {
+    "model": "users.education",
+    "pk": 2,
+    "fields": {
+      "place": 1,
+      "graduated_year": "2021",
+      "major": "Прикладная информатика"
+    }
+  },
+  {
+    "model": "users.education",
+    "pk": 3,
+    "fields": {
+      "place": 2,
+      "graduated_year": "2012",
+      "major": "Информатика и вычислительная техника"
+    }
+  },
+  {
+    "model": "users.education",
+    "pk": 4,
+    "fields": {
+      "place": 4,
+      "graduated_year": "1999",
+      "major": "Бизнес-информатика"
+    }
+  }
+]

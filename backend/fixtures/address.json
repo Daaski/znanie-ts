@@ -1,0 +1,10199 @@
+[
+  {
+    "model": "addresses.address",
+    "pk": 1,
+    "fields": {
+      "name": "Абаза",
+      "subject": "Хакасия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 2,
+    "fields": {
+      "name": "Абакан",
+      "subject": "Хакасия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 3,
+    "fields": {
+      "name": "Абдулино",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 4,
+    "fields": {
+      "name": "Абинск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 5,
+    "fields": {
+      "name": "Агидель",
+      "subject": "Башкортостан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 6,
+    "fields": {
+      "name": "Агрыз",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 7,
+    "fields": {
+      "name": "Адыгейск",
+      "subject": "Адыгея",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 8,
+    "fields": {
+      "name": "Азнакаево",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 9,
+    "fields": {
+      "name": "Азов",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 10,
+    "fields": {
+      "name": "Ак-Довурак",
+      "subject": "Тыва",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 11,
+    "fields": {
+      "name": "Аксай",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 12,
+    "fields": {
+      "name": "Алагир",
+      "subject": "Северная Осетия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 13,
+    "fields": {
+      "name": "Алапаевск",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 14,
+    "fields": {
+      "name": "Алатырь",
+      "subject": "Чувашия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 15,
+    "fields": {
+      "name": "Алдан",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 16,
+    "fields": {
+      "name": "Алейск",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 17,
+    "fields": {
+      "name": "Александров",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 18,
+    "fields": {
+      "name": "Александровск-Сахалинский",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 19,
+    "fields": {
+      "name": "Александровск",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 20,
+    "fields": {
+      "name": "Алексеевка",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 21,
+    "fields": {
+      "name": "Алексин",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 22,
+    "fields": {
+      "name": "Алзамай",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 23,
+    "fields": {
+      "name": "Алупка",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 24,
+    "fields": {
+      "name": "Алушта",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 25,
+    "fields": {
+      "name": "Альметьевск",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 26,
+    "fields": {
+      "name": "Амурск",
+      "subject": "Хабаровский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 27,
+    "fields": {
+      "name": "Анадырь",
+      "subject": "Чукотский АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 28,
+    "fields": {
+      "name": "Анапа",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 29,
+    "fields": {
+      "name": "Ангарск",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 30,
+    "fields": {
+      "name": "Андреаполь",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 31,
+    "fields": {
+      "name": "Анжеро-Судженск",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 32,
+    "fields": {
+      "name": "Анива",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 33,
+    "fields": {
+      "name": "Апатиты",
+      "subject": "Мурманская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 34,
+    "fields": {
+      "name": "Апрелевка",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 35,
+    "fields": {
+      "name": "Апшеронск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 36,
+    "fields": {
+      "name": "Арамиль",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 37,
+    "fields": {
+      "name": "Аргун",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 38,
+    "fields": {
+      "name": "Ардатов",
+      "subject": "Мордовия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 39,
+    "fields": {
+      "name": "Ардон",
+      "subject": "Северная Осетия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 40,
+    "fields": {
+      "name": "Арзамас",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 41,
+    "fields": {
+      "name": "Аркадак",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 42,
+    "fields": {
+      "name": "Армавир",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 43,
+    "fields": {
+      "name": "Армянск",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 44,
+    "fields": {
+      "name": "Арсеньев",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 45,
+    "fields": {
+      "name": "Арск",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 46,
+    "fields": {
+      "name": "Артём",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 47,
+    "fields": {
+      "name": "Артёмовск",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 48,
+    "fields": {
+      "name": "Артёмовский",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 49,
+    "fields": {
+      "name": "Архангельск",
+      "subject": "Архангельская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 50,
+    "fields": {
+      "name": "Асбест",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 51,
+    "fields": {
+      "name": "Асино",
+      "subject": "Томская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 52,
+    "fields": {
+      "name": "Астрахань",
+      "subject": "Астраханская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 53,
+    "fields": {
+      "name": "Аткарск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 54,
+    "fields": {
+      "name": "Ахтубинск",
+      "subject": "Астраханская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 55,
+    "fields": {
+      "name": "Ачинск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 56,
+    "fields": {
+      "name": "Ачхой-Мартан",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 57,
+    "fields": {
+      "name": "Аша",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 58,
+    "fields": {
+      "name": "Бабаево",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 59,
+    "fields": {
+      "name": "Бабушкин",
+      "subject": "Бурятия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 60,
+    "fields": {
+      "name": "Бавлы",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 61,
+    "fields": {
+      "name": "Багратионовск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 62,
+    "fields": {
+      "name": "Байкальск",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 63,
+    "fields": {
+      "name": "Баймак",
+      "subject": "Башкортостан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 64,
+    "fields": {
+      "name": "Бакал",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 65,
+    "fields": {
+      "name": "Баксан",
+      "subject": "Кабардино-Балкария",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 66,
+    "fields": {
+      "name": "Балабаново",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 67,
+    "fields": {
+      "name": "Балаклава",
+      "subject": "Севастополь",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 68,
+    "fields": {
+      "name": "Балаково",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 69,
+    "fields": {
+      "name": "Балахна",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 70,
+    "fields": {
+      "name": "Балашиха",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 71,
+    "fields": {
+      "name": "Балашов",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 72,
+    "fields": {
+      "name": "Балей",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 73,
+    "fields": {
+      "name": "Балтийск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 74,
+    "fields": {
+      "name": "Барабинск",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 75,
+    "fields": {
+      "name": "Барнаул",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 76,
+    "fields": {
+      "name": "Барыш",
+      "subject": "Ульяновская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 77,
+    "fields": {
+      "name": "Батайск",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 78,
+    "fields": {
+      "name": "Бахчисарай",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 79,
+    "fields": {
+      "name": "Бежецк",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 80,
+    "fields": {
+      "name": "Белая Калитва",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 81,
+    "fields": {
+      "name": "Белая Холуница",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 82,
+    "fields": {
+      "name": "Белгород",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 83,
+    "fields": {
+      "name": "Белебей",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 84,
+    "fields": {
+      "name": "Белинский",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 85,
+    "fields": {
+      "name": "Белово",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 86,
+    "fields": {
+      "name": "Белогорск",
+      "subject": "Амурская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 87,
+    "fields": {
+      "name": "Белогорск",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 88,
+    "fields": {
+      "name": "Белозерск",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 89,
+    "fields": {
+      "name": "Белокуриха",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 90,
+    "fields": {
+      "name": "Беломорск",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 91,
+    "fields": {
+      "name": "Белоозёрский",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 92,
+    "fields": {
+      "name": "Белорецк",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 93,
+    "fields": {
+      "name": "Белореченск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 94,
+    "fields": {
+      "name": "Белоусово",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 95,
+    "fields": {
+      "name": "Белоярский",
+      "subject": "Ханты-Мансийский АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 96,
+    "fields": {
+      "name": "Белый",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 97,
+    "fields": {
+      "name": "Белёв",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 98,
+    "fields": {
+      "name": "Бердск",
+      "subject": "Новосибирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 99,
+    "fields": {
+      "name": "Березники",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 100,
+    "fields": {
+      "name": "Берёзовский",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 101,
+    "fields": {
+      "name": "Берёзовский",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 102,
+    "fields": {
+      "name": "Беслан",
+      "subject": "Северная Осетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 103,
+    "fields": {
+      "name": "Бийск",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 104,
+    "fields": {
+      "name": "Бикин",
+      "subject": "Хабаровский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 105,
+    "fields": {
+      "name": "Билибино",
+      "subject": "Чукотский АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 106,
+    "fields": {
+      "name": "Биробиджан",
+      "subject": "Еврейская АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 107,
+    "fields": {
+      "name": "Бирск",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 108,
+    "fields": {
+      "name": "Бирюсинск",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 109,
+    "fields": {
+      "name": "Бирюч",
+      "subject": "Белгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 110,
+    "fields": {
+      "name": "Благовещенск",
+      "subject": "Амурская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 111,
+    "fields": {
+      "name": "Благовещенск",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 112,
+    "fields": {
+      "name": "Благодарный",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 113,
+    "fields": {
+      "name": "Бобров",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 114,
+    "fields": {
+      "name": "Богданович",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 115,
+    "fields": {
+      "name": "Богородицк",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 116,
+    "fields": {
+      "name": "Богородск",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 117,
+    "fields": {
+      "name": "Боготол",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 118,
+    "fields": {
+      "name": "Богучар",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 119,
+    "fields": {
+      "name": "Бодайбо",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 120,
+    "fields": {
+      "name": "Бокситогорск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 121,
+    "fields": {
+      "name": "Болгар",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 122,
+    "fields": {
+      "name": "Бологое",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 123,
+    "fields": {
+      "name": "Болотное",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 124,
+    "fields": {
+      "name": "Болохово",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 125,
+    "fields": {
+      "name": "Болхов",
+      "subject": "Орловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 126,
+    "fields": {
+      "name": "Большой Камень",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 127,
+    "fields": {
+      "name": "Бор",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 128,
+    "fields": {
+      "name": "Борзя",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 129,
+    "fields": {
+      "name": "Борисоглебск",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 130,
+    "fields": {
+      "name": "Боровичи",
+      "subject": "Новгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 131,
+    "fields": {
+      "name": "Боровск",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 132,
+    "fields": {
+      "name": "Бородино",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 133,
+    "fields": {
+      "name": "Братск",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 134,
+    "fields": {
+      "name": "Бронницы",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 135,
+    "fields": {
+      "name": "Брянск",
+      "subject": "Брянская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 136,
+    "fields": {
+      "name": "Бугульма",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 137,
+    "fields": {
+      "name": "Бугуруслан",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 138,
+    "fields": {
+      "name": "Будённовск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 139,
+    "fields": {
+      "name": "Бузулук",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 140,
+    "fields": {
+      "name": "Буинск",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 141,
+    "fields": {
+      "name": "Буй",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 142,
+    "fields": {
+      "name": "Буйнакск",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 143,
+    "fields": {
+      "name": "Бутурлиновка",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 144,
+    "fields": {
+      "name": "Валдай",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 145,
+    "fields": {
+      "name": "Валуйки",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 146,
+    "fields": {
+      "name": "Велиж",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 147,
+    "fields": {
+      "name": "Великие Луки",
+      "subject": "Псковская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 148,
+    "fields": {
+      "name": "Великий Новгород",
+      "subject": "Новгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 149,
+    "fields": {
+      "name": "Великий Устюг",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 150,
+    "fields": {
+      "name": "Вельск",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 151,
+    "fields": {
+      "name": "Венёв",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 152,
+    "fields": {
+      "name": "Верещагино",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 153,
+    "fields": {
+      "name": "Верея",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 154,
+    "fields": {
+      "name": "Верхнеуральск",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 155,
+    "fields": {
+      "name": "Верхний Тагил",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 156,
+    "fields": {
+      "name": "Верхний Уфалей",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 157,
+    "fields": {
+      "name": "Верхняя Пышма",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 158,
+    "fields": {
+      "name": "Верхняя Салда",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 159,
+    "fields": {
+      "name": "Верхняя Тура",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 160,
+    "fields": {
+      "name": "Верхотурье",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 161,
+    "fields": {
+      "name": "Верхоянск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 162,
+    "fields": {
+      "name": "Весьегонск",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 163,
+    "fields": {
+      "name": "Ветлуга",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 164,
+    "fields": {
+      "name": "Видное",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 165,
+    "fields": {
+      "name": "Вилюйск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 166,
+    "fields": {
+      "name": "Вилючинск",
+      "subject": "Камчатский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 167,
+    "fields": {
+      "name": "Вихоревка",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 168,
+    "fields": {
+      "name": "Вичуга",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 169,
+    "fields": {
+      "name": "Владивосток",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 170,
+    "fields": {
+      "name": "Владикавказ",
+      "subject": "Северная Осетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 171,
+    "fields": {
+      "name": "Владимир",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 172,
+    "fields": {
+      "name": "Волгоград",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 173,
+    "fields": {
+      "name": "Волгодонск",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 174,
+    "fields": {
+      "name": "Волгореченск",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 175,
+    "fields": {
+      "name": "Волжск",
+      "subject": "Марий Эл",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 176,
+    "fields": {
+      "name": "Волжский",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 177,
+    "fields": {
+      "name": "Вологда",
+      "subject": "Вологодская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 178,
+    "fields": {
+      "name": "Володарск",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 179,
+    "fields": {
+      "name": "Волоколамск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 180,
+    "fields": {
+      "name": "Волосово",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 181,
+    "fields": {
+      "name": "Волхов",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 182,
+    "fields": {
+      "name": "Волчанск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 183,
+    "fields": {
+      "name": "Вольск",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 184,
+    "fields": {
+      "name": "Воркута",
+      "subject": "Коми",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 185,
+    "fields": {
+      "name": "Воронеж",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 186,
+    "fields": {
+      "name": "Ворсма",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 187,
+    "fields": {
+      "name": "Воскресенск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 188,
+    "fields": {
+      "name": "Воткинск",
+      "subject": "Удмуртия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 189,
+    "fields": {
+      "name": "Всеволожск",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 190,
+    "fields": {
+      "name": "Вуктыл",
+      "subject": "Коми",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 191,
+    "fields": {
+      "name": "Выборг",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 192,
+    "fields": {
+      "name": "Выкса",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 193,
+    "fields": {
+      "name": "Высоковск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 194,
+    "fields": {
+      "name": "Высоцк",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 195,
+    "fields": {
+      "name": "Вытегра",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 196,
+    "fields": {
+      "name": "Вышний Волочёк",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 197,
+    "fields": {
+      "name": "Вяземский",
+      "subject": "Хабаровский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 198,
+    "fields": {
+      "name": "Вязники",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 199,
+    "fields": {
+      "name": "Вязьма",
+      "subject": "Смоленская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 200,
+    "fields": {
+      "name": "Вятские Поляны",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 201,
+    "fields": {
+      "name": "Гаврилов Посад",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 202,
+    "fields": {
+      "name": "Гаврилов-Ям",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 203,
+    "fields": {
+      "name": "Гагарин",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 204,
+    "fields": {
+      "name": "Гаджиево",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 205,
+    "fields": {
+      "name": "Гай",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 206,
+    "fields": {
+      "name": "Галич",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 207,
+    "fields": {
+      "name": "Гатчина",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 208,
+    "fields": {
+      "name": "Гвардейск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 209,
+    "fields": {
+      "name": "Гдов",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 210,
+    "fields": {
+      "name": "Геленджик",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 211,
+    "fields": {
+      "name": "Георгиевск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 212,
+    "fields": {
+      "name": "Глазов",
+      "subject": "Удмуртия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 213,
+    "fields": {
+      "name": "Голицыно",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 214,
+    "fields": {
+      "name": "Горбатов",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 215,
+    "fields": {
+      "name": "Горно-Алтайск",
+      "subject": "Алтай",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 216,
+    "fields": {
+      "name": "Горнозаводск",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 217,
+    "fields": {
+      "name": "Горняк",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 218,
+    "fields": {
+      "name": "Городец",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 219,
+    "fields": {
+      "name": "Городище",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 220,
+    "fields": {
+      "name": "Городовиковск",
+      "subject": "Калмыкия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 221,
+    "fields": {
+      "name": "Гороховец",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 222,
+    "fields": {
+      "name": "Горячий Ключ",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 223,
+    "fields": {
+      "name": "Грайворон",
+      "subject": "Белгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 224,
+    "fields": {
+      "name": "Гремячинск",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 225,
+    "fields": {
+      "name": "Грозный",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 226,
+    "fields": {
+      "name": "Грязи",
+      "subject": "Липецкая область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 227,
+    "fields": {
+      "name": "Грязовец",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 228,
+    "fields": {
+      "name": "Губаха",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 229,
+    "fields": {
+      "name": "Губкин",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 230,
+    "fields": {
+      "name": "Губкинский",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 231,
+    "fields": {
+      "name": "Гудермес",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 232,
+    "fields": {
+      "name": "Гуково",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 233,
+    "fields": {
+      "name": "Гулькевичи",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 234,
+    "fields": {
+      "name": "Гурьевск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 235,
+    "fields": {
+      "name": "Гурьевск",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 236,
+    "fields": {
+      "name": "Гусев",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 237,
+    "fields": {
+      "name": "Гусиноозёрск",
+      "subject": "Бурятия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 238,
+    "fields": {
+      "name": "Гусь-Хрустальный",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 239,
+    "fields": {
+      "name": "Давлеканово",
+      "subject": "Башкортостан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 240,
+    "fields": {
+      "name": "Дагестанские Огни",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 241,
+    "fields": {
+      "name": "Далматово",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 242,
+    "fields": {
+      "name": "Дальнегорск",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 243,
+    "fields": {
+      "name": "Дальнереченск",
+      "subject": "Приморский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 244,
+    "fields": {
+      "name": "Данилов",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 245,
+    "fields": {
+      "name": "Данков",
+      "subject": "Липецкая область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 246,
+    "fields": {
+      "name": "Дегтярск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 247,
+    "fields": {
+      "name": "Дедовск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 248,
+    "fields": {
+      "name": "Демидов",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 249,
+    "fields": {
+      "name": "Дербент",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 250,
+    "fields": {
+      "name": "Десногорск",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 251,
+    "fields": {
+      "name": "Джанкой",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 252,
+    "fields": {
+      "name": "Дзержинск",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 253,
+    "fields": {
+      "name": "Дзержинский",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 254,
+    "fields": {
+      "name": "Дивногорск",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 255,
+    "fields": {
+      "name": "Дигора",
+      "subject": "Северная Осетия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 256,
+    "fields": {
+      "name": "Димитровград",
+      "subject": "Ульяновская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 257,
+    "fields": {
+      "name": "Дмитриев",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 258,
+    "fields": {
+      "name": "Дмитров",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 259,
+    "fields": {
+      "name": "Дмитровск",
+      "subject": "Орловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 260,
+    "fields": {
+      "name": "Дно",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 261,
+    "fields": {
+      "name": "Добрянка",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 262,
+    "fields": {
+      "name": "Долгопрудный",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 263,
+    "fields": {
+      "name": "Долинск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 264,
+    "fields": {
+      "name": "Домодедово",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 265,
+    "fields": {
+      "name": "Донецк",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 266,
+    "fields": {
+      "name": "Донской",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 267,
+    "fields": {
+      "name": "Дорогобуж",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 268,
+    "fields": {
+      "name": "Дрезна",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 269,
+    "fields": {
+      "name": "Дубна",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 270,
+    "fields": {
+      "name": "Дубовка",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 271,
+    "fields": {
+      "name": "Дудинка",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 272,
+    "fields": {
+      "name": "Духовщина",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 273,
+    "fields": {
+      "name": "Дюртюли",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 274,
+    "fields": {
+      "name": "Дятьково",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 275,
+    "fields": {
+      "name": "Евпатория",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 276,
+    "fields": {
+      "name": "Егорьевск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 277,
+    "fields": {
+      "name": "Ейск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 278,
+    "fields": {
+      "name": "Екатеринбург",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 279,
+    "fields": {
+      "name": "Елабуга",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 280,
+    "fields": {
+      "name": "Елец",
+      "subject": "Липецкая область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 281,
+    "fields": {
+      "name": "Елизово",
+      "subject": "Камчатский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 282,
+    "fields": {
+      "name": "Ельня",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 283,
+    "fields": {
+      "name": "Еманжелинск",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 284,
+    "fields": {
+      "name": "Емва",
+      "subject": "Коми",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 285,
+    "fields": {
+      "name": "Енисейск",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 286,
+    "fields": {
+      "name": "Ермолино",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 287,
+    "fields": {
+      "name": "Ершов",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 288,
+    "fields": {
+      "name": "Ессентуки",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 289,
+    "fields": {
+      "name": "Ефремов",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 290,
+    "fields": {
+      "name": "Железноводск",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 291,
+    "fields": {
+      "name": "Железногорск-Илимский",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 292,
+    "fields": {
+      "name": "Железногорск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 293,
+    "fields": {
+      "name": "Железногорск",
+      "subject": "Курская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 294,
+    "fields": {
+      "name": "Жердевка",
+      "subject": "Тамбовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 295,
+    "fields": {
+      "name": "Жигулёвск",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 296,
+    "fields": {
+      "name": "Жиздра",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 297,
+    "fields": {
+      "name": "Жирновск",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 298,
+    "fields": {
+      "name": "Жуков",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 299,
+    "fields": {
+      "name": "Жуковка",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 300,
+    "fields": {
+      "name": "Жуковский",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 301,
+    "fields": {
+      "name": "Завитинск",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 302,
+    "fields": {
+      "name": "Заводоуковск",
+      "subject": "Тюменская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 303,
+    "fields": {
+      "name": "Заволжск",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 304,
+    "fields": {
+      "name": "Заволжье",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 305,
+    "fields": {
+      "name": "Задонск",
+      "subject": "Липецкая область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 306,
+    "fields": {
+      "name": "Заинск",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 307,
+    "fields": {
+      "name": "Закаменск",
+      "subject": "Бурятия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 308,
+    "fields": {
+      "name": "Заозёрный",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 309,
+    "fields": {
+      "name": "Заозёрск",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 310,
+    "fields": {
+      "name": "Западная Двина",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 311,
+    "fields": {
+      "name": "Заполярный",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 312,
+    "fields": {
+      "name": "Зарайск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 313,
+    "fields": {
+      "name": "Заречный",
+      "subject": "Пензенская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 314,
+    "fields": {
+      "name": "Заречный",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 315,
+    "fields": {
+      "name": "Заринск",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 316,
+    "fields": {
+      "name": "Звенигово",
+      "subject": "Марий Эл",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 317,
+    "fields": {
+      "name": "Звенигород",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 318,
+    "fields": {
+      "name": "Зверево",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 319,
+    "fields": {
+      "name": "Зеленогорск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 320,
+    "fields": {
+      "name": "Зеленогорск",
+      "subject": "Санкт-Петербург",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 321,
+    "fields": {
+      "name": "Зеленоград",
+      "subject": "Москва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 322,
+    "fields": {
+      "name": "Зеленоградск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 323,
+    "fields": {
+      "name": "Зеленодольск",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 324,
+    "fields": {
+      "name": "Зеленокумск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 325,
+    "fields": {
+      "name": "Зерноград",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 326,
+    "fields": {
+      "name": "Зея",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 327,
+    "fields": {
+      "name": "Зима",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 328,
+    "fields": {
+      "name": "Златоуст",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 329,
+    "fields": {
+      "name": "Злынка",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 330,
+    "fields": {
+      "name": "Змеиногорск",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 331,
+    "fields": {
+      "name": "Знаменск",
+      "subject": "Астраханская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 332,
+    "fields": {
+      "name": "Зубцов",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 333,
+    "fields": {
+      "name": "Зуевка",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 334,
+    "fields": {
+      "name": "Ивангород",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 335,
+    "fields": {
+      "name": "Иваново",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 336,
+    "fields": {
+      "name": "Ивантеевка",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 337,
+    "fields": {
+      "name": "Ивдель",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 338,
+    "fields": {
+      "name": "Игарка",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 339,
+    "fields": {
+      "name": "Ижевск",
+      "subject": "Удмуртия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 340,
+    "fields": {
+      "name": "Избербаш",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 341,
+    "fields": {
+      "name": "Изобильный",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 342,
+    "fields": {
+      "name": "Иланский",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 343,
+    "fields": {
+      "name": "Инза",
+      "subject": "Ульяновская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 344,
+    "fields": {
+      "name": "Инкерман",
+      "subject": "Севастополь",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 345,
+    "fields": {
+      "name": "Иннополис",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 346,
+    "fields": {
+      "name": "Инсар",
+      "subject": "Мордовия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 347,
+    "fields": {
+      "name": "Инта",
+      "subject": "Коми",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 348,
+    "fields": {
+      "name": "Ипатово",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 349,
+    "fields": {
+      "name": "Ирбит",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 350,
+    "fields": {
+      "name": "Иркутск",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 351,
+    "fields": {
+      "name": "Исилькуль",
+      "subject": "Омская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 352,
+    "fields": {
+      "name": "Искитим",
+      "subject": "Новосибирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 353,
+    "fields": {
+      "name": "Истра",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 354,
+    "fields": {
+      "name": "Ишим",
+      "subject": "Тюменская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 355,
+    "fields": {
+      "name": "Ишимбай",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 356,
+    "fields": {
+      "name": "Йошкар-Ола",
+      "subject": "Марий Эл",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 357,
+    "fields": {
+      "name": "Кадников",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 358,
+    "fields": {
+      "name": "Казань",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 359,
+    "fields": {
+      "name": "Калач-на-Дону",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 360,
+    "fields": {
+      "name": "Калач",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 361,
+    "fields": {
+      "name": "Калачинск",
+      "subject": "Омская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 362,
+    "fields": {
+      "name": "Калининград",
+      "subject": "Калининградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 363,
+    "fields": {
+      "name": "Калининск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 364,
+    "fields": {
+      "name": "Калтан",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 365,
+    "fields": {
+      "name": "Калуга",
+      "subject": "Калужская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 366,
+    "fields": {
+      "name": "Калязин",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 367,
+    "fields": {
+      "name": "Камбарка",
+      "subject": "Удмуртия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 368,
+    "fields": {
+      "name": "Каменка",
+      "subject": "Пензенская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 369,
+    "fields": {
+      "name": "Каменногорск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 370,
+    "fields": {
+      "name": "Каменск-Уральский",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 371,
+    "fields": {
+      "name": "Каменск-Шахтинский",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 372,
+    "fields": {
+      "name": "Камень-на-Оби",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 373,
+    "fields": {
+      "name": "Камешково",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 374,
+    "fields": {
+      "name": "Камызяк",
+      "subject": "Астраханская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 375,
+    "fields": {
+      "name": "Камышин",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 376,
+    "fields": {
+      "name": "Камышлов",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 377,
+    "fields": {
+      "name": "Канаш",
+      "subject": "Чувашия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 378,
+    "fields": {
+      "name": "Кандалакша",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 379,
+    "fields": {
+      "name": "Канск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 380,
+    "fields": {
+      "name": "Карабаново",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 381,
+    "fields": {
+      "name": "Карабаш",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 382,
+    "fields": {
+      "name": "Карабулак",
+      "subject": "Ингушетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 383,
+    "fields": {
+      "name": "Карасук",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 384,
+    "fields": {
+      "name": "Карачаевск",
+      "subject": "Карачаево-Черкесия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 385,
+    "fields": {
+      "name": "Карачев",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 386,
+    "fields": {
+      "name": "Каргат",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 387,
+    "fields": {
+      "name": "Каргополь",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 388,
+    "fields": {
+      "name": "Карпинск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 389,
+    "fields": {
+      "name": "Карталы",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 390,
+    "fields": {
+      "name": "Касимов",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 391,
+    "fields": {
+      "name": "Касли",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 392,
+    "fields": {
+      "name": "Каспийск",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 393,
+    "fields": {
+      "name": "Катав-Ивановск",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 394,
+    "fields": {
+      "name": "Катайск",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 395,
+    "fields": {
+      "name": "Качканар",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 396,
+    "fields": {
+      "name": "Кашин",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 397,
+    "fields": {
+      "name": "Кашира",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 398,
+    "fields": {
+      "name": "Кедровый",
+      "subject": "Томская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 399,
+    "fields": {
+      "name": "Кемерово",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 400,
+    "fields": {
+      "name": "Кемь",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 401,
+    "fields": {
+      "name": "Керчь",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 402,
+    "fields": {
+      "name": "Кизел",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 403,
+    "fields": {
+      "name": "Кизилюрт",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 404,
+    "fields": {
+      "name": "Кизляр",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 405,
+    "fields": {
+      "name": "Кимовск",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 406,
+    "fields": {
+      "name": "Кимры",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 407,
+    "fields": {
+      "name": "Кингисепп",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 408,
+    "fields": {
+      "name": "Кинель",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 409,
+    "fields": {
+      "name": "Кинешма",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 410,
+    "fields": {
+      "name": "Киреевск",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 411,
+    "fields": {
+      "name": "Киренск",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 412,
+    "fields": {
+      "name": "Киржач",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 413,
+    "fields": {
+      "name": "Кириллов",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 414,
+    "fields": {
+      "name": "Кириши",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 415,
+    "fields": {
+      "name": "Киров",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 416,
+    "fields": {
+      "name": "Киров",
+      "subject": "Кировская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 417,
+    "fields": {
+      "name": "Кировград",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 418,
+    "fields": {
+      "name": "Кирово-Чепецк",
+      "subject": "Кировская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 419,
+    "fields": {
+      "name": "Кировск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 420,
+    "fields": {
+      "name": "Кировск",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 421,
+    "fields": {
+      "name": "Кирс",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 422,
+    "fields": {
+      "name": "Кирсанов",
+      "subject": "Тамбовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 423,
+    "fields": {
+      "name": "Киселёвск",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 424,
+    "fields": {
+      "name": "Кисловодск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 425,
+    "fields": {
+      "name": "Клин",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 426,
+    "fields": {
+      "name": "Клинцы",
+      "subject": "Брянская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 427,
+    "fields": {
+      "name": "Княгинино",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 428,
+    "fields": {
+      "name": "Ковдор",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 429,
+    "fields": {
+      "name": "Ковров",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 430,
+    "fields": {
+      "name": "Ковылкино",
+      "subject": "Мордовия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 431,
+    "fields": {
+      "name": "Когалым",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 432,
+    "fields": {
+      "name": "Кодинск",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 433,
+    "fields": {
+      "name": "Козельск",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 434,
+    "fields": {
+      "name": "Козловка",
+      "subject": "Чувашия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 435,
+    "fields": {
+      "name": "Козьмодемьянск",
+      "subject": "Марий Эл",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 436,
+    "fields": {
+      "name": "Кола",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 437,
+    "fields": {
+      "name": "Кологрив",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 438,
+    "fields": {
+      "name": "Коломна",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 439,
+    "fields": {
+      "name": "Колпашево",
+      "subject": "Томская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 440,
+    "fields": {
+      "name": "Колпино",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 441,
+    "fields": {
+      "name": "Кольчугино",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 442,
+    "fields": {
+      "name": "Коммунар",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 443,
+    "fields": {
+      "name": "Комсомольск-на-Амуре",
+      "subject": "Хабаровский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 444,
+    "fields": {
+      "name": "Комсомольск",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 445,
+    "fields": {
+      "name": "Конаково",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 446,
+    "fields": {
+      "name": "Кондопога",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 447,
+    "fields": {
+      "name": "Кондрово",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 448,
+    "fields": {
+      "name": "Константиновск",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 449,
+    "fields": {
+      "name": "Копейск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 450,
+    "fields": {
+      "name": "Кораблино",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 451,
+    "fields": {
+      "name": "Кореновск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 452,
+    "fields": {
+      "name": "Коркино",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 453,
+    "fields": {
+      "name": "Королёв",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 454,
+    "fields": {
+      "name": "Короча",
+      "subject": "Белгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 455,
+    "fields": {
+      "name": "Корсаков",
+      "subject": "Сахалинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 456,
+    "fields": {
+      "name": "Коряжма",
+      "subject": "Архангельская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 457,
+    "fields": {
+      "name": "Костерёво",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 458,
+    "fields": {
+      "name": "Костомукша",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 459,
+    "fields": {
+      "name": "Кострома",
+      "subject": "Костромская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 460,
+    "fields": {
+      "name": "Котельники",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 461,
+    "fields": {
+      "name": "Котельниково",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 462,
+    "fields": {
+      "name": "Котельнич",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 463,
+    "fields": {
+      "name": "Котлас",
+      "subject": "Архангельская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 464,
+    "fields": {
+      "name": "Котово",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 465,
+    "fields": {
+      "name": "Котовск",
+      "subject": "Тамбовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 466,
+    "fields": {
+      "name": "Кохма",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 467,
+    "fields": {
+      "name": "Красавино",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 468,
+    "fields": {
+      "name": "Красноармейск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 469,
+    "fields": {
+      "name": "Красноармейск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 470,
+    "fields": {
+      "name": "Красновишерск",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 471,
+    "fields": {
+      "name": "Красногорск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 472,
+    "fields": {
+      "name": "Краснодар",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 473,
+    "fields": {
+      "name": "Красное Село",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 474,
+    "fields": {
+      "name": "Краснозаводск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 475,
+    "fields": {
+      "name": "Краснознаменск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 476,
+    "fields": {
+      "name": "Краснознаменск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 477,
+    "fields": {
+      "name": "Краснокаменск",
+      "subject": "Забайкальский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 478,
+    "fields": {
+      "name": "Краснокамск",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 479,
+    "fields": {
+      "name": "Красноперекопск",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 480,
+    "fields": {
+      "name": "Краснослободск",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 481,
+    "fields": {
+      "name": "Краснослободск",
+      "subject": "Мордовия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 482,
+    "fields": {
+      "name": "Краснотурьинск",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 483,
+    "fields": {
+      "name": "Красноуральск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 484,
+    "fields": {
+      "name": "Красноуфимск",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 485,
+    "fields": {
+      "name": "Красноярск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 486,
+    "fields": {
+      "name": "Красный Кут",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 487,
+    "fields": {
+      "name": "Красный Сулин",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 488,
+    "fields": {
+      "name": "Красный Холм",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 489,
+    "fields": {
+      "name": "Кремёнки",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 490,
+    "fields": {
+      "name": "Кронштадт",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 491,
+    "fields": {
+      "name": "Кропоткин",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 492,
+    "fields": {
+      "name": "Крымск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 493,
+    "fields": {
+      "name": "Кстово",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 494,
+    "fields": {
+      "name": "Кубинка",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 495,
+    "fields": {
+      "name": "Кувандык",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 496,
+    "fields": {
+      "name": "Кувшиново",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 497,
+    "fields": {
+      "name": "Кудрово",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 498,
+    "fields": {
+      "name": "Кудымкар",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 499,
+    "fields": {
+      "name": "Кузнецк",
+      "subject": "Пензенская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 500,
+    "fields": {
+      "name": "Куйбышев",
+      "subject": "Новосибирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 501,
+    "fields": {
+      "name": "Кукмор",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 502,
+    "fields": {
+      "name": "Кулебаки",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 503,
+    "fields": {
+      "name": "Кумертау",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 504,
+    "fields": {
+      "name": "Кунгур",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 505,
+    "fields": {
+      "name": "Купино",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 506,
+    "fields": {
+      "name": "Курган",
+      "subject": "Курганская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 507,
+    "fields": {
+      "name": "Курганинск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 508,
+    "fields": {
+      "name": "Курильск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 509,
+    "fields": {
+      "name": "Курлово",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 510,
+    "fields": {
+      "name": "Куровское",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 511,
+    "fields": {
+      "name": "Курск",
+      "subject": "Курская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 512,
+    "fields": {
+      "name": "Куртамыш",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 513,
+    "fields": {
+      "name": "Курчалой",
+      "subject": "Чечня",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 514,
+    "fields": {
+      "name": "Курчатов",
+      "subject": "Курская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 515,
+    "fields": {
+      "name": "Куса",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 516,
+    "fields": {
+      "name": "Кушва",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 517,
+    "fields": {
+      "name": "Кызыл",
+      "subject": "Тыва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 518,
+    "fields": {
+      "name": "Кыштым",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 519,
+    "fields": {
+      "name": "Кяхта",
+      "subject": "Бурятия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 520,
+    "fields": {
+      "name": "Лабинск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 521,
+    "fields": {
+      "name": "Лабытнанги",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 522,
+    "fields": {
+      "name": "Лагань",
+      "subject": "Калмыкия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 523,
+    "fields": {
+      "name": "Ладушкин",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 524,
+    "fields": {
+      "name": "Лаишево",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 525,
+    "fields": {
+      "name": "Лакинск",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 526,
+    "fields": {
+      "name": "Лангепас",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 527,
+    "fields": {
+      "name": "Лахденпохья",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 528,
+    "fields": {
+      "name": "Лебедянь",
+      "subject": "Липецкая область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 529,
+    "fields": {
+      "name": "Лениногорск",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 530,
+    "fields": {
+      "name": "Ленинск-Кузнецкий",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 531,
+    "fields": {
+      "name": "Ленинск",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 532,
+    "fields": {
+      "name": "Ленск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 533,
+    "fields": {
+      "name": "Лермонтов",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 534,
+    "fields": {
+      "name": "Лесной",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 535,
+    "fields": {
+      "name": "Лесозаводск",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 536,
+    "fields": {
+      "name": "Лесосибирск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 537,
+    "fields": {
+      "name": "Ливны",
+      "subject": "Орловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 538,
+    "fields": {
+      "name": "Ликино-Дулёво",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 539,
+    "fields": {
+      "name": "Липецк",
+      "subject": "Липецкая область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 540,
+    "fields": {
+      "name": "Липки",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 541,
+    "fields": {
+      "name": "Лиски",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 542,
+    "fields": {
+      "name": "Лихославль",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 543,
+    "fields": {
+      "name": "Лобня",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 544,
+    "fields": {
+      "name": "Лодейное Поле",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 545,
+    "fields": {
+      "name": "Ломоносов",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 546,
+    "fields": {
+      "name": "Лосино-Петровский",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 547,
+    "fields": {
+      "name": "Луга",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 548,
+    "fields": {
+      "name": "Луза",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 549,
+    "fields": {
+      "name": "Лукоянов",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 550,
+    "fields": {
+      "name": "Луховицы",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 551,
+    "fields": {
+      "name": "Лысково",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 552,
+    "fields": {
+      "name": "Лысьва",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 553,
+    "fields": {
+      "name": "Лыткарино",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 554,
+    "fields": {
+      "name": "Льгов",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 555,
+    "fields": {
+      "name": "Любань",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 556,
+    "fields": {
+      "name": "Люберцы",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 557,
+    "fields": {
+      "name": "Любим",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 558,
+    "fields": {
+      "name": "Людиново",
+      "subject": "Калужская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 559,
+    "fields": {
+      "name": "Лянтор",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 560,
+    "fields": {
+      "name": "Магадан",
+      "subject": "Магаданская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 561,
+    "fields": {
+      "name": "Магас",
+      "subject": "Ингушетия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 562,
+    "fields": {
+      "name": "Магнитогорск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 563,
+    "fields": {
+      "name": "Майкоп",
+      "subject": "Адыгея",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 564,
+    "fields": {
+      "name": "Майский",
+      "subject": "Кабардино-Балкария",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 565,
+    "fields": {
+      "name": "Макаров",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 566,
+    "fields": {
+      "name": "Макарьев",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 567,
+    "fields": {
+      "name": "Макушино",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 568,
+    "fields": {
+      "name": "Малая Вишера",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 569,
+    "fields": {
+      "name": "Малгобек",
+      "subject": "Ингушетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 570,
+    "fields": {
+      "name": "Малмыж",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 571,
+    "fields": {
+      "name": "Малоархангельск",
+      "subject": "Орловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 572,
+    "fields": {
+      "name": "Малоярославец",
+      "subject": "Калужская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 573,
+    "fields": {
+      "name": "Мамадыш",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 574,
+    "fields": {
+      "name": "Мамоново",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 575,
+    "fields": {
+      "name": "Мантурово",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 576,
+    "fields": {
+      "name": "Мариинск",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 577,
+    "fields": {
+      "name": "Мариинский Посад",
+      "subject": "Чувашия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 578,
+    "fields": {
+      "name": "Маркс",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 579,
+    "fields": {
+      "name": "Махачкала",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 580,
+    "fields": {
+      "name": "Мглин",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 581,
+    "fields": {
+      "name": "Мегион",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 582,
+    "fields": {
+      "name": "Медвежьегорск",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 583,
+    "fields": {
+      "name": "Медногорск",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 584,
+    "fields": {
+      "name": "Медынь",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 585,
+    "fields": {
+      "name": "Межгорье",
+      "subject": "Башкортостан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 586,
+    "fields": {
+      "name": "Междуреченск",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 587,
+    "fields": {
+      "name": "Мезень",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 588,
+    "fields": {
+      "name": "Меленки",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 589,
+    "fields": {
+      "name": "Мелеуз",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 590,
+    "fields": {
+      "name": "Менделеевск",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 591,
+    "fields": {
+      "name": "Мензелинск",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 592,
+    "fields": {
+      "name": "Мещовск",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 593,
+    "fields": {
+      "name": "Миасс",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 594,
+    "fields": {
+      "name": "Микунь",
+      "subject": "Коми",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 595,
+    "fields": {
+      "name": "Миллерово",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 596,
+    "fields": {
+      "name": "Минеральные Воды",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 597,
+    "fields": {
+      "name": "Минусинск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 598,
+    "fields": {
+      "name": "Миньяр",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 599,
+    "fields": {
+      "name": "Мирный",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 600,
+    "fields": {
+      "name": "Мирный",
+      "subject": "Якутия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 601,
+    "fields": {
+      "name": "Михайлов",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 602,
+    "fields": {
+      "name": "Михайловка",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 603,
+    "fields": {
+      "name": "Михайловск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 604,
+    "fields": {
+      "name": "Михайловск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 605,
+    "fields": {
+      "name": "Мичуринск",
+      "subject": "Тамбовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 606,
+    "fields": {
+      "name": "Могоча",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 607,
+    "fields": {
+      "name": "Можайск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 608,
+    "fields": {
+      "name": "Можга",
+      "subject": "Удмуртия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 609,
+    "fields": {
+      "name": "Моздок",
+      "subject": "Северная Осетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 610,
+    "fields": {
+      "name": "Мончегорск",
+      "subject": "Мурманская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 611,
+    "fields": {
+      "name": "Морозовск",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 612,
+    "fields": {
+      "name": "Моршанск",
+      "subject": "Тамбовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 613,
+    "fields": {
+      "name": "Мосальск",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 614,
+    "fields": {
+      "name": "Москва",
+      "subject": "Москва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 615,
+    "fields": {
+      "name": "Московский",
+      "subject": "Москва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 616,
+    "fields": {
+      "name": "Муравленко",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 617,
+    "fields": {
+      "name": "Мураши",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 618,
+    "fields": {
+      "name": "Мурино",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 619,
+    "fields": {
+      "name": "Мурманск",
+      "subject": "Мурманская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 620,
+    "fields": {
+      "name": "Муром",
+      "subject": "Владимирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 621,
+    "fields": {
+      "name": "Мценск",
+      "subject": "Орловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 622,
+    "fields": {
+      "name": "Мыски",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 623,
+    "fields": {
+      "name": "Мытищи",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 624,
+    "fields": {
+      "name": "Мышкин",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 625,
+    "fields": {
+      "name": "Набережные Челны",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 626,
+    "fields": {
+      "name": "Навашино",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 627,
+    "fields": {
+      "name": "Наволоки",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 628,
+    "fields": {
+      "name": "Надым",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 629,
+    "fields": {
+      "name": "Назарово",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 630,
+    "fields": {
+      "name": "Назрань",
+      "subject": "Ингушетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 631,
+    "fields": {
+      "name": "Называевск",
+      "subject": "Омская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 632,
+    "fields": {
+      "name": "Нальчик",
+      "subject": "Кабардино-Балкария",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 633,
+    "fields": {
+      "name": "Нариманов",
+      "subject": "Астраханская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 634,
+    "fields": {
+      "name": "Наро-Фоминск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 635,
+    "fields": {
+      "name": "Нарткала",
+      "subject": "Кабардино-Балкария",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 636,
+    "fields": {
+      "name": "Нарьян-Мар",
+      "subject": "Ненецкий АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 637,
+    "fields": {
+      "name": "Находка",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 638,
+    "fields": {
+      "name": "Невель",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 639,
+    "fields": {
+      "name": "Невельск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 640,
+    "fields": {
+      "name": "Невинномысск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 641,
+    "fields": {
+      "name": "Невьянск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 642,
+    "fields": {
+      "name": "Нелидово",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 643,
+    "fields": {
+      "name": "Неман",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 644,
+    "fields": {
+      "name": "Нерехта",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 645,
+    "fields": {
+      "name": "Нерчинск",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 646,
+    "fields": {
+      "name": "Нерюнгри",
+      "subject": "Якутия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 647,
+    "fields": {
+      "name": "Нестеров",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 648,
+    "fields": {
+      "name": "Нефтегорск",
+      "subject": "Самарская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 649,
+    "fields": {
+      "name": "Нефтекамск",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 650,
+    "fields": {
+      "name": "Нефтекумск",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 651,
+    "fields": {
+      "name": "Нефтеюганск",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 652,
+    "fields": {
+      "name": "Нея",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 653,
+    "fields": {
+      "name": "Нижневартовск",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 654,
+    "fields": {
+      "name": "Нижнекамск",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 655,
+    "fields": {
+      "name": "Нижнеудинск",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 656,
+    "fields": {
+      "name": "Нижние Серги",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 657,
+    "fields": {
+      "name": "Нижний Ломов",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 658,
+    "fields": {
+      "name": "Нижний Новгород",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 659,
+    "fields": {
+      "name": "Нижний Тагил",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 660,
+    "fields": {
+      "name": "Нижняя Салда",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 661,
+    "fields": {
+      "name": "Нижняя Тура",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 662,
+    "fields": {
+      "name": "Николаевск-на-Амуре",
+      "subject": "Хабаровский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 663,
+    "fields": {
+      "name": "Николаевск",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 664,
+    "fields": {
+      "name": "Никольск",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 665,
+    "fields": {
+      "name": "Никольск",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 666,
+    "fields": {
+      "name": "Никольское",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 667,
+    "fields": {
+      "name": "Новая Ладога",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 668,
+    "fields": {
+      "name": "Новая Ляля",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 669,
+    "fields": {
+      "name": "Новоалександровск",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 670,
+    "fields": {
+      "name": "Новоалтайск",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 671,
+    "fields": {
+      "name": "Новоаннинский",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 672,
+    "fields": {
+      "name": "Нововоронеж",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 673,
+    "fields": {
+      "name": "Новодвинск",
+      "subject": "Архангельская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 674,
+    "fields": {
+      "name": "Новозыбков",
+      "subject": "Брянская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 675,
+    "fields": {
+      "name": "Новокубанск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 676,
+    "fields": {
+      "name": "Новокузнецк",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 677,
+    "fields": {
+      "name": "Новокуйбышевск",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 678,
+    "fields": {
+      "name": "Новомичуринск",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 679,
+    "fields": {
+      "name": "Новомосковск",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 680,
+    "fields": {
+      "name": "Новопавловск",
+      "subject": "Ставропольский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 681,
+    "fields": {
+      "name": "Новоржев",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 682,
+    "fields": {
+      "name": "Новороссийск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 683,
+    "fields": {
+      "name": "Новосибирск",
+      "subject": "Новосибирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 684,
+    "fields": {
+      "name": "Новосиль",
+      "subject": "Орловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 685,
+    "fields": {
+      "name": "Новосокольники",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 686,
+    "fields": {
+      "name": "Новотроицк",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 687,
+    "fields": {
+      "name": "Новоузенск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 688,
+    "fields": {
+      "name": "Новоульяновск",
+      "subject": "Ульяновская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 689,
+    "fields": {
+      "name": "Новоуральск",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 690,
+    "fields": {
+      "name": "Новохопёрск",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 691,
+    "fields": {
+      "name": "Новочебоксарск",
+      "subject": "Чувашия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 692,
+    "fields": {
+      "name": "Новочеркасск",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 693,
+    "fields": {
+      "name": "Новошахтинск",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 694,
+    "fields": {
+      "name": "Новый Оскол",
+      "subject": "Белгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 695,
+    "fields": {
+      "name": "Новый Уренгой",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 696,
+    "fields": {
+      "name": "Ногинск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 697,
+    "fields": {
+      "name": "Нолинск",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 698,
+    "fields": {
+      "name": "Норильск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 699,
+    "fields": {
+      "name": "Ноябрьск",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 700,
+    "fields": {
+      "name": "Нурлат",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 701,
+    "fields": {
+      "name": "Нытва",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 702,
+    "fields": {
+      "name": "Нюрба",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 703,
+    "fields": {
+      "name": "Нягань",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 704,
+    "fields": {
+      "name": "Нязепетровск",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 705,
+    "fields": {
+      "name": "Няндома",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 706,
+    "fields": {
+      "name": "Облучье",
+      "subject": "Еврейская АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 707,
+    "fields": {
+      "name": "Обнинск",
+      "subject": "Калужская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 708,
+    "fields": {
+      "name": "Обоянь",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 709,
+    "fields": {
+      "name": "Обь",
+      "subject": "Новосибирская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 710,
+    "fields": {
+      "name": "Одинцово",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 711,
+    "fields": {
+      "name": "Озёрск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 712,
+    "fields": {
+      "name": "Озёрск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 713,
+    "fields": {
+      "name": "Озёры",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 714,
+    "fields": {
+      "name": "Октябрьск",
+      "subject": "Самарская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 715,
+    "fields": {
+      "name": "Октябрьский",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 716,
+    "fields": {
+      "name": "Окуловка",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 717,
+    "fields": {
+      "name": "Оленегорск",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 718,
+    "fields": {
+      "name": "Олонец",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 719,
+    "fields": {
+      "name": "Олёкминск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 720,
+    "fields": {
+      "name": "Омск",
+      "subject": "Омская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 721,
+    "fields": {
+      "name": "Омутнинск",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 722,
+    "fields": {
+      "name": "Онега",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 723,
+    "fields": {
+      "name": "Опочка",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 724,
+    "fields": {
+      "name": "Оренбург",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 725,
+    "fields": {
+      "name": "Орехово-Зуево",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 726,
+    "fields": {
+      "name": "Орлов",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 727,
+    "fields": {
+      "name": "Орск",
+      "subject": "Оренбургская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 728,
+    "fields": {
+      "name": "Орёл",
+      "subject": "Орловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 729,
+    "fields": {
+      "name": "Оса",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 730,
+    "fields": {
+      "name": "Осинники",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 731,
+    "fields": {
+      "name": "Осташков",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 732,
+    "fields": {
+      "name": "Остров",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 733,
+    "fields": {
+      "name": "Островной",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 734,
+    "fields": {
+      "name": "Острогожск",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 735,
+    "fields": {
+      "name": "Отрадное",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 736,
+    "fields": {
+      "name": "Отрадный",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 737,
+    "fields": {
+      "name": "Оха",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 738,
+    "fields": {
+      "name": "Оханск",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 739,
+    "fields": {
+      "name": "Очёр",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 740,
+    "fields": {
+      "name": "Павлово",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 741,
+    "fields": {
+      "name": "Павловск",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 742,
+    "fields": {
+      "name": "Павловск",
+      "subject": "Санкт-Петербург",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 743,
+    "fields": {
+      "name": "Павловский Посад",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 744,
+    "fields": {
+      "name": "Палласовка",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 745,
+    "fields": {
+      "name": "Партизанск",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 746,
+    "fields": {
+      "name": "Певек",
+      "subject": "Чукотский АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 747,
+    "fields": {
+      "name": "Пенза",
+      "subject": "Пензенская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 748,
+    "fields": {
+      "name": "Первомайск",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 749,
+    "fields": {
+      "name": "Первоуральск",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 750,
+    "fields": {
+      "name": "Перевоз",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 751,
+    "fields": {
+      "name": "Пересвет",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 752,
+    "fields": {
+      "name": "Переславль-Залесский",
+      "subject": "Ярославская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 753,
+    "fields": {
+      "name": "Пермь",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 754,
+    "fields": {
+      "name": "Пестово",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 755,
+    "fields": {
+      "name": "Петергоф",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 756,
+    "fields": {
+      "name": "Петров Вал",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 757,
+    "fields": {
+      "name": "Петровск-Забайкальский",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 758,
+    "fields": {
+      "name": "Петровск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 759,
+    "fields": {
+      "name": "Петрозаводск",
+      "subject": "Карелия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 760,
+    "fields": {
+      "name": "Петропавловск-Камчатский",
+      "subject": "Камчатский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 761,
+    "fields": {
+      "name": "Петухово",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 762,
+    "fields": {
+      "name": "Петушки",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 763,
+    "fields": {
+      "name": "Печора",
+      "subject": "Коми",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 764,
+    "fields": {
+      "name": "Печоры",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 765,
+    "fields": {
+      "name": "Пикалёво",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 766,
+    "fields": {
+      "name": "Пионерский",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 767,
+    "fields": {
+      "name": "Питкяранта",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 768,
+    "fields": {
+      "name": "Плавск",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 769,
+    "fields": {
+      "name": "Пласт",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 770,
+    "fields": {
+      "name": "Плёс",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 771,
+    "fields": {
+      "name": "Поворино",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 772,
+    "fields": {
+      "name": "Подольск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 773,
+    "fields": {
+      "name": "Подпорожье",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 774,
+    "fields": {
+      "name": "Покачи",
+      "subject": "Ханты-Мансийский АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 775,
+    "fields": {
+      "name": "Покров",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 776,
+    "fields": {
+      "name": "Покровск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 777,
+    "fields": {
+      "name": "Полевской",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 778,
+    "fields": {
+      "name": "Полесск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 779,
+    "fields": {
+      "name": "Полысаево",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 780,
+    "fields": {
+      "name": "Полярные Зори",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 781,
+    "fields": {
+      "name": "Полярный",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 782,
+    "fields": {
+      "name": "Поронайск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 783,
+    "fields": {
+      "name": "Порхов",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 784,
+    "fields": {
+      "name": "Похвистнево",
+      "subject": "Самарская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 785,
+    "fields": {
+      "name": "Почеп",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 786,
+    "fields": {
+      "name": "Починок",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 787,
+    "fields": {
+      "name": "Пошехонье",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 788,
+    "fields": {
+      "name": "Правдинск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 789,
+    "fields": {
+      "name": "Приволжск",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 790,
+    "fields": {
+      "name": "Приморск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 791,
+    "fields": {
+      "name": "Приморск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 792,
+    "fields": {
+      "name": "Приморско-Ахтарск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 793,
+    "fields": {
+      "name": "Приозерск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 794,
+    "fields": {
+      "name": "Прокопьевск",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 795,
+    "fields": {
+      "name": "Пролетарск",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 796,
+    "fields": {
+      "name": "Протвино",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 797,
+    "fields": {
+      "name": "Прохладный",
+      "subject": "Кабардино-Балкария",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 798,
+    "fields": {
+      "name": "Псков",
+      "subject": "Псковская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 799,
+    "fields": {
+      "name": "Пугачёв",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 800,
+    "fields": {
+      "name": "Пудож",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 801,
+    "fields": {
+      "name": "Пустошка",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 802,
+    "fields": {
+      "name": "Пучеж",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 803,
+    "fields": {
+      "name": "Пушкин",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 804,
+    "fields": {
+      "name": "Пушкино",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 805,
+    "fields": {
+      "name": "Пущино",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 806,
+    "fields": {
+      "name": "Пыталово",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 807,
+    "fields": {
+      "name": "Пыть-Ях",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 808,
+    "fields": {
+      "name": "Пятигорск",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 809,
+    "fields": {
+      "name": "Радужный",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 810,
+    "fields": {
+      "name": "Радужный",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 811,
+    "fields": {
+      "name": "Райчихинск",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 812,
+    "fields": {
+      "name": "Раменское",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 813,
+    "fields": {
+      "name": "Рассказово",
+      "subject": "Тамбовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 814,
+    "fields": {
+      "name": "Ревда",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 815,
+    "fields": {
+      "name": "Реж",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 816,
+    "fields": {
+      "name": "Реутов",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 817,
+    "fields": {
+      "name": "Ржев",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 818,
+    "fields": {
+      "name": "Родники",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 819,
+    "fields": {
+      "name": "Рославль",
+      "subject": "Смоленская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 820,
+    "fields": {
+      "name": "Россошь",
+      "subject": "Воронежская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 821,
+    "fields": {
+      "name": "Ростов-на-Дону",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 822,
+    "fields": {
+      "name": "Ростов",
+      "subject": "Ярославская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 823,
+    "fields": {
+      "name": "Рошаль",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 824,
+    "fields": {
+      "name": "Ртищево",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 825,
+    "fields": {
+      "name": "Рубцовск",
+      "subject": "Алтайский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 826,
+    "fields": {
+      "name": "Рудня",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 827,
+    "fields": {
+      "name": "Руза",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 828,
+    "fields": {
+      "name": "Рузаевка",
+      "subject": "Мордовия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 829,
+    "fields": {
+      "name": "Рыбинск",
+      "subject": "Ярославская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 830,
+    "fields": {
+      "name": "Рыбное",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 831,
+    "fields": {
+      "name": "Рыльск",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 832,
+    "fields": {
+      "name": "Ряжск",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 833,
+    "fields": {
+      "name": "Рязань",
+      "subject": "Рязанская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 834,
+    "fields": {
+      "name": "Саки",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 835,
+    "fields": {
+      "name": "Салават",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 836,
+    "fields": {
+      "name": "Салаир",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 837,
+    "fields": {
+      "name": "Салехард",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 838,
+    "fields": {
+      "name": "Сальск",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 839,
+    "fields": {
+      "name": "Самара",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 840,
+    "fields": {
+      "name": "Санкт-Петербург",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 841,
+    "fields": {
+      "name": "Саранск",
+      "subject": "Мордовия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 842,
+    "fields": {
+      "name": "Сарапул",
+      "subject": "Удмуртия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 843,
+    "fields": {
+      "name": "Саратов",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 844,
+    "fields": {
+      "name": "Саров",
+      "subject": "Нижегородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 845,
+    "fields": {
+      "name": "Сасово",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 846,
+    "fields": {
+      "name": "Сатка",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 847,
+    "fields": {
+      "name": "Сафоново",
+      "subject": "Смоленская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 848,
+    "fields": {
+      "name": "Саяногорск",
+      "subject": "Хакасия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 849,
+    "fields": {
+      "name": "Саянск",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 850,
+    "fields": {
+      "name": "Светлогорск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 851,
+    "fields": {
+      "name": "Светлоград",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 852,
+    "fields": {
+      "name": "Светлый",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 853,
+    "fields": {
+      "name": "Светогорск",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 854,
+    "fields": {
+      "name": "Свирск",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 855,
+    "fields": {
+      "name": "Свободный",
+      "subject": "Амурская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 856,
+    "fields": {
+      "name": "Себеж",
+      "subject": "Псковская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 857,
+    "fields": {
+      "name": "Севастополь",
+      "subject": "Севастополь",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 858,
+    "fields": {
+      "name": "Северо-Курильск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 859,
+    "fields": {
+      "name": "Северобайкальск",
+      "subject": "Бурятия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 860,
+    "fields": {
+      "name": "Северодвинск",
+      "subject": "Архангельская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 861,
+    "fields": {
+      "name": "Североморск",
+      "subject": "Мурманская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 862,
+    "fields": {
+      "name": "Североуральск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 863,
+    "fields": {
+      "name": "Северск",
+      "subject": "Томская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 864,
+    "fields": {
+      "name": "Севск",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 865,
+    "fields": {
+      "name": "Сегежа",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 866,
+    "fields": {
+      "name": "Сельцо",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 867,
+    "fields": {
+      "name": "Семикаракорск",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 868,
+    "fields": {
+      "name": "Семилуки",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 869,
+    "fields": {
+      "name": "Семёнов",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 870,
+    "fields": {
+      "name": "Сенгилей",
+      "subject": "Ульяновская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 871,
+    "fields": {
+      "name": "Серафимович",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 872,
+    "fields": {
+      "name": "Сергач",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 873,
+    "fields": {
+      "name": "Сергиев Посад",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 874,
+    "fields": {
+      "name": "Сердобск",
+      "subject": "Пензенская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 875,
+    "fields": {
+      "name": "Серов",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 876,
+    "fields": {
+      "name": "Серпухов",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 877,
+    "fields": {
+      "name": "Сертолово",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 878,
+    "fields": {
+      "name": "Сестрорецк",
+      "subject": "Санкт-Петербург",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 879,
+    "fields": {
+      "name": "Сибай",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 880,
+    "fields": {
+      "name": "Сим",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 881,
+    "fields": {
+      "name": "Симферополь",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 882,
+    "fields": {
+      "name": "Сковородино",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 883,
+    "fields": {
+      "name": "Скопин",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 884,
+    "fields": {
+      "name": "Славгород",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 885,
+    "fields": {
+      "name": "Славск",
+      "subject": "Калининградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 886,
+    "fields": {
+      "name": "Славянск-на-Кубани",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 887,
+    "fields": {
+      "name": "Сланцы",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 888,
+    "fields": {
+      "name": "Слободской",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 889,
+    "fields": {
+      "name": "Слюдянка",
+      "subject": "Иркутская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 890,
+    "fields": {
+      "name": "Смоленск",
+      "subject": "Смоленская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 891,
+    "fields": {
+      "name": "Снежинск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 892,
+    "fields": {
+      "name": "Снежногорск",
+      "subject": "Мурманская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 893,
+    "fields": {
+      "name": "Собинка",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 894,
+    "fields": {
+      "name": "Советск",
+      "subject": "Калининградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 895,
+    "fields": {
+      "name": "Советск",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 896,
+    "fields": {
+      "name": "Советск",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 897,
+    "fields": {
+      "name": "Советская Гавань",
+      "subject": "Хабаровский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 898,
+    "fields": {
+      "name": "Советский",
+      "subject": "Ханты-Мансийский АО — Югра",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 899,
+    "fields": {
+      "name": "Сокол",
+      "subject": "Вологодская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 900,
+    "fields": {
+      "name": "Солигалич",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 901,
+    "fields": {
+      "name": "Соликамск",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 902,
+    "fields": {
+      "name": "Солнечногорск",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 903,
+    "fields": {
+      "name": "Соль-Илецк",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 904,
+    "fields": {
+      "name": "Сольвычегодск",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 905,
+    "fields": {
+      "name": "Сольцы",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 906,
+    "fields": {
+      "name": "Сорочинск",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 907,
+    "fields": {
+      "name": "Сорск",
+      "subject": "Хакасия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 908,
+    "fields": {
+      "name": "Сортавала",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 909,
+    "fields": {
+      "name": "Сосенский",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 910,
+    "fields": {
+      "name": "Сосновка",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 911,
+    "fields": {
+      "name": "Сосновоборск",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 912,
+    "fields": {
+      "name": "Сосновый Бор",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 913,
+    "fields": {
+      "name": "Сосногорск",
+      "subject": "Коми",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 914,
+    "fields": {
+      "name": "Сочи",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 915,
+    "fields": {
+      "name": "Спас-Деменск",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 916,
+    "fields": {
+      "name": "Спас-Клепики",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 917,
+    "fields": {
+      "name": "Спасск-Дальний",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 918,
+    "fields": {
+      "name": "Спасск-Рязанский",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 919,
+    "fields": {
+      "name": "Спасск",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 920,
+    "fields": {
+      "name": "Среднеколымск",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 921,
+    "fields": {
+      "name": "Среднеуральск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 922,
+    "fields": {
+      "name": "Сретенск",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 923,
+    "fields": {
+      "name": "Ставрополь",
+      "subject": "Ставропольский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 924,
+    "fields": {
+      "name": "Старая Купавна",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 925,
+    "fields": {
+      "name": "Старая Русса",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 926,
+    "fields": {
+      "name": "Старица",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 927,
+    "fields": {
+      "name": "Стародуб",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 928,
+    "fields": {
+      "name": "Старый Крым",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 929,
+    "fields": {
+      "name": "Старый Оскол",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 930,
+    "fields": {
+      "name": "Стерлитамак",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 931,
+    "fields": {
+      "name": "Стрежевой",
+      "subject": "Томская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 932,
+    "fields": {
+      "name": "Строитель",
+      "subject": "Белгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 933,
+    "fields": {
+      "name": "Струнино",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 934,
+    "fields": {
+      "name": "Ступино",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 935,
+    "fields": {
+      "name": "Суворов",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 936,
+    "fields": {
+      "name": "Судак",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 937,
+    "fields": {
+      "name": "Суджа",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 938,
+    "fields": {
+      "name": "Судогда",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 939,
+    "fields": {
+      "name": "Суздаль",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 940,
+    "fields": {
+      "name": "Сунжа",
+      "subject": "Ингушетия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 941,
+    "fields": {
+      "name": "Суоярви",
+      "subject": "Карелия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 942,
+    "fields": {
+      "name": "Сураж",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 943,
+    "fields": {
+      "name": "Сургут",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 944,
+    "fields": {
+      "name": "Суровикино",
+      "subject": "Волгоградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 945,
+    "fields": {
+      "name": "Сурск",
+      "subject": "Пензенская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 946,
+    "fields": {
+      "name": "Сусуман",
+      "subject": "Магаданская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 947,
+    "fields": {
+      "name": "Сухиничи",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 948,
+    "fields": {
+      "name": "Сухой Лог",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 949,
+    "fields": {
+      "name": "Сызрань",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 950,
+    "fields": {
+      "name": "Сыктывкар",
+      "subject": "Коми",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 951,
+    "fields": {
+      "name": "Сысерть",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 952,
+    "fields": {
+      "name": "Сычёвка",
+      "subject": "Смоленская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 953,
+    "fields": {
+      "name": "Сясьстрой",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 954,
+    "fields": {
+      "name": "Тавда",
+      "subject": "Свердловская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 955,
+    "fields": {
+      "name": "Таганрог",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 956,
+    "fields": {
+      "name": "Тайга",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 957,
+    "fields": {
+      "name": "Тайшет",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 958,
+    "fields": {
+      "name": "Талдом",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 959,
+    "fields": {
+      "name": "Талица",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 960,
+    "fields": {
+      "name": "Тамбов",
+      "subject": "Тамбовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 961,
+    "fields": {
+      "name": "Тара",
+      "subject": "Омская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 962,
+    "fields": {
+      "name": "Тарко-Сале",
+      "subject": "Ямало-Ненецкий АО",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 963,
+    "fields": {
+      "name": "Таруса",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 964,
+    "fields": {
+      "name": "Татарск",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 965,
+    "fields": {
+      "name": "Таштагол",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 966,
+    "fields": {
+      "name": "Тверь",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 967,
+    "fields": {
+      "name": "Теберда",
+      "subject": "Карачаево-Черкесия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 968,
+    "fields": {
+      "name": "Тейково",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 969,
+    "fields": {
+      "name": "Темников",
+      "subject": "Мордовия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 970,
+    "fields": {
+      "name": "Темрюк",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 971,
+    "fields": {
+      "name": "Терек",
+      "subject": "Кабардино-Балкария",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 972,
+    "fields": {
+      "name": "Тетюши",
+      "subject": "Татарстан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 973,
+    "fields": {
+      "name": "Тимашёвск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 974,
+    "fields": {
+      "name": "Тихвин",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 975,
+    "fields": {
+      "name": "Тихорецк",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 976,
+    "fields": {
+      "name": "Тобольск",
+      "subject": "Тюменская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 977,
+    "fields": {
+      "name": "Тогучин",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 978,
+    "fields": {
+      "name": "Тольятти",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 979,
+    "fields": {
+      "name": "Томари",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 980,
+    "fields": {
+      "name": "Томмот",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 981,
+    "fields": {
+      "name": "Томск",
+      "subject": "Томская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 982,
+    "fields": {
+      "name": "Топки",
+      "subject": "Кемеровская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 983,
+    "fields": {
+      "name": "Торжок",
+      "subject": "Тверская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 984,
+    "fields": {
+      "name": "Торопец",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 985,
+    "fields": {
+      "name": "Тосно",
+      "subject": "Ленинградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 986,
+    "fields": {
+      "name": "Тотьма",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 987,
+    "fields": {
+      "name": "Троицк",
+      "subject": "Москва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 988,
+    "fields": {
+      "name": "Троицк",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 989,
+    "fields": {
+      "name": "Трубчевск",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 990,
+    "fields": {
+      "name": "Трёхгорный",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 991,
+    "fields": {
+      "name": "Туапсе",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 992,
+    "fields": {
+      "name": "Туймазы",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 993,
+    "fields": {
+      "name": "Тула",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 994,
+    "fields": {
+      "name": "Тулун",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 995,
+    "fields": {
+      "name": "Туран",
+      "subject": "Тыва",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 996,
+    "fields": {
+      "name": "Туринск",
+      "subject": "Свердловская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 997,
+    "fields": {
+      "name": "Тутаев",
+      "subject": "Ярославская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 998,
+    "fields": {
+      "name": "Тында",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 999,
+    "fields": {
+      "name": "Тырныауз",
+      "subject": "Кабардино-Балкария",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1000,
+    "fields": {
+      "name": "Тюкалинск",
+      "subject": "Омская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1001,
+    "fields": {
+      "name": "Тюмень",
+      "subject": "Тюменская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1002,
+    "fields": {
+      "name": "Уварово",
+      "subject": "Тамбовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1003,
+    "fields": {
+      "name": "Углегорск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1004,
+    "fields": {
+      "name": "Углич",
+      "subject": "Ярославская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1005,
+    "fields": {
+      "name": "Удачный",
+      "subject": "Якутия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1006,
+    "fields": {
+      "name": "Удомля",
+      "subject": "Тверская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1007,
+    "fields": {
+      "name": "Ужур",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1008,
+    "fields": {
+      "name": "Узловая",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1009,
+    "fields": {
+      "name": "Улан-Удэ",
+      "subject": "Бурятия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1010,
+    "fields": {
+      "name": "Ульяновск",
+      "subject": "Ульяновская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1011,
+    "fields": {
+      "name": "Унеча",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1012,
+    "fields": {
+      "name": "Урай",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1013,
+    "fields": {
+      "name": "Урень",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1014,
+    "fields": {
+      "name": "Уржум",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1015,
+    "fields": {
+      "name": "Урус-Мартан",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1016,
+    "fields": {
+      "name": "Урюпинск",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1017,
+    "fields": {
+      "name": "Усинск",
+      "subject": "Коми",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1018,
+    "fields": {
+      "name": "Усмань",
+      "subject": "Липецкая область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1019,
+    "fields": {
+      "name": "Усолье-Сибирское",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1020,
+    "fields": {
+      "name": "Усолье",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1021,
+    "fields": {
+      "name": "Уссурийск",
+      "subject": "Приморский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1022,
+    "fields": {
+      "name": "Усть-Джегута",
+      "subject": "Карачаево-Черкесия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1023,
+    "fields": {
+      "name": "Усть-Илимск",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1024,
+    "fields": {
+      "name": "Усть-Катав",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1025,
+    "fields": {
+      "name": "Усть-Кут",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1026,
+    "fields": {
+      "name": "Усть-Лабинск",
+      "subject": "Краснодарский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1027,
+    "fields": {
+      "name": "Устюжна",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1028,
+    "fields": {
+      "name": "Уфа",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1029,
+    "fields": {
+      "name": "Ухта",
+      "subject": "Коми",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1030,
+    "fields": {
+      "name": "Учалы",
+      "subject": "Башкортостан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1031,
+    "fields": {
+      "name": "Уяр",
+      "subject": "Красноярский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1032,
+    "fields": {
+      "name": "Фатеж",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1033,
+    "fields": {
+      "name": "Феодосия",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1034,
+    "fields": {
+      "name": "Фокино",
+      "subject": "Брянская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1035,
+    "fields": {
+      "name": "Фокино",
+      "subject": "Приморский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1036,
+    "fields": {
+      "name": "Фролово",
+      "subject": "Волгоградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1037,
+    "fields": {
+      "name": "Фрязино",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1038,
+    "fields": {
+      "name": "Фурманов",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1039,
+    "fields": {
+      "name": "Хабаровск",
+      "subject": "Хабаровский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1040,
+    "fields": {
+      "name": "Хадыженск",
+      "subject": "Краснодарский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1041,
+    "fields": {
+      "name": "Ханты-Мансийск",
+      "subject": "Ханты-Мансийский АО — Югра",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1042,
+    "fields": {
+      "name": "Харабали",
+      "subject": "Астраханская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1043,
+    "fields": {
+      "name": "Харовск",
+      "subject": "Вологодская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1044,
+    "fields": {
+      "name": "Хасавюрт",
+      "subject": "Дагестан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1045,
+    "fields": {
+      "name": "Хвалынск",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1046,
+    "fields": {
+      "name": "Хилок",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1047,
+    "fields": {
+      "name": "Химки",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1048,
+    "fields": {
+      "name": "Холм",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1049,
+    "fields": {
+      "name": "Холмск",
+      "subject": "Сахалинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1050,
+    "fields": {
+      "name": "Хотьково",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1051,
+    "fields": {
+      "name": "Цивильск",
+      "subject": "Чувашия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1052,
+    "fields": {
+      "name": "Цимлянск",
+      "subject": "Ростовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1053,
+    "fields": {
+      "name": "Циолковский",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1054,
+    "fields": {
+      "name": "Чадан",
+      "subject": "Тыва",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1055,
+    "fields": {
+      "name": "Чайковский",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1056,
+    "fields": {
+      "name": "Чапаевск",
+      "subject": "Самарская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1057,
+    "fields": {
+      "name": "Чаплыгин",
+      "subject": "Липецкая область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1058,
+    "fields": {
+      "name": "Чебаркуль",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1059,
+    "fields": {
+      "name": "Чебоксары",
+      "subject": "Чувашия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1060,
+    "fields": {
+      "name": "Чегем",
+      "subject": "Кабардино-Балкария",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1061,
+    "fields": {
+      "name": "Чекалин",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1062,
+    "fields": {
+      "name": "Челябинск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1063,
+    "fields": {
+      "name": "Чердынь",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1064,
+    "fields": {
+      "name": "Черемхово",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1065,
+    "fields": {
+      "name": "Черепаново",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1066,
+    "fields": {
+      "name": "Череповец",
+      "subject": "Вологодская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1067,
+    "fields": {
+      "name": "Черкесск",
+      "subject": "Карачаево-Черкесия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1068,
+    "fields": {
+      "name": "Черноголовка",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1069,
+    "fields": {
+      "name": "Черногорск",
+      "subject": "Хакасия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1070,
+    "fields": {
+      "name": "Чернушка",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1071,
+    "fields": {
+      "name": "Черняховск",
+      "subject": "Калининградская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1072,
+    "fields": {
+      "name": "Чехов",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1073,
+    "fields": {
+      "name": "Чистополь",
+      "subject": "Татарстан",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1074,
+    "fields": {
+      "name": "Чита",
+      "subject": "Забайкальский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1075,
+    "fields": {
+      "name": "Чкаловск",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1076,
+    "fields": {
+      "name": "Чудово",
+      "subject": "Новгородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1077,
+    "fields": {
+      "name": "Чулым",
+      "subject": "Новосибирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1078,
+    "fields": {
+      "name": "Чусовой",
+      "subject": "Пермский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1079,
+    "fields": {
+      "name": "Чухлома",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1080,
+    "fields": {
+      "name": "Чёрмоз",
+      "subject": "Пермский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1081,
+    "fields": {
+      "name": "Шагонар",
+      "subject": "Тыва",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1082,
+    "fields": {
+      "name": "Шадринск",
+      "subject": "Курганская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1083,
+    "fields": {
+      "name": "Шали",
+      "subject": "Чечня",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1084,
+    "fields": {
+      "name": "Шарыпово",
+      "subject": "Красноярский край",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1085,
+    "fields": {
+      "name": "Шарья",
+      "subject": "Костромская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1086,
+    "fields": {
+      "name": "Шатура",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1087,
+    "fields": {
+      "name": "Шахты",
+      "subject": "Ростовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1088,
+    "fields": {
+      "name": "Шахунья",
+      "subject": "Нижегородская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1089,
+    "fields": {
+      "name": "Шацк",
+      "subject": "Рязанская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1090,
+    "fields": {
+      "name": "Шебекино",
+      "subject": "Белгородская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1091,
+    "fields": {
+      "name": "Шелехов",
+      "subject": "Иркутская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1092,
+    "fields": {
+      "name": "Шенкурск",
+      "subject": "Архангельская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1093,
+    "fields": {
+      "name": "Шилка",
+      "subject": "Забайкальский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1094,
+    "fields": {
+      "name": "Шимановск",
+      "subject": "Амурская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1095,
+    "fields": {
+      "name": "Шиханы",
+      "subject": "Саратовская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1096,
+    "fields": {
+      "name": "Шлиссельбург",
+      "subject": "Ленинградская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1097,
+    "fields": {
+      "name": "Шумерля",
+      "subject": "Чувашия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1098,
+    "fields": {
+      "name": "Шумиха",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1099,
+    "fields": {
+      "name": "Шуя",
+      "subject": "Ивановская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1100,
+    "fields": {
+      "name": "Щербинка",
+      "subject": "Москва",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1101,
+    "fields": {
+      "name": "Щигры",
+      "subject": "Курская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1102,
+    "fields": {
+      "name": "Щучье",
+      "subject": "Курганская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1103,
+    "fields": {
+      "name": "Щёкино",
+      "subject": "Тульская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1104,
+    "fields": {
+      "name": "Щёлкино",
+      "subject": "Крым",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1105,
+    "fields": {
+      "name": "Щёлково",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1106,
+    "fields": {
+      "name": "Электрогорск",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1107,
+    "fields": {
+      "name": "Электросталь",
+      "subject": "Московская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1108,
+    "fields": {
+      "name": "Электроугли",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1109,
+    "fields": {
+      "name": "Элиста",
+      "subject": "Калмыкия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1110,
+    "fields": {
+      "name": "Энгельс",
+      "subject": "Саратовская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1111,
+    "fields": {
+      "name": "Эртиль",
+      "subject": "Воронежская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1112,
+    "fields": {
+      "name": "Югорск",
+      "subject": "Ханты-Мансийский АО",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1113,
+    "fields": {
+      "name": "Южа",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1114,
+    "fields": {
+      "name": "Южно-Сахалинск",
+      "subject": "Сахалинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1115,
+    "fields": {
+      "name": "Южно-Сухокумск",
+      "subject": "Дагестан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1116,
+    "fields": {
+      "name": "Южноуральск",
+      "subject": "Челябинская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1117,
+    "fields": {
+      "name": "Юрга",
+      "subject": "Кемеровская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1118,
+    "fields": {
+      "name": "Юрьев-Польский",
+      "subject": "Владимирская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1119,
+    "fields": {
+      "name": "Юрьевец",
+      "subject": "Ивановская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1120,
+    "fields": {
+      "name": "Юрюзань",
+      "subject": "Челябинская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1121,
+    "fields": {
+      "name": "Юхнов",
+      "subject": "Калужская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1122,
+    "fields": {
+      "name": "Ядрин",
+      "subject": "Чувашия",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1123,
+    "fields": {
+      "name": "Якутск",
+      "subject": "Якутия",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1124,
+    "fields": {
+      "name": "Ялта",
+      "subject": "Крым",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1125,
+    "fields": {
+      "name": "Ялуторовск",
+      "subject": "Тюменская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1126,
+    "fields": {
+      "name": "Янаул",
+      "subject": "Башкортостан",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1127,
+    "fields": {
+      "name": "Яранск",
+      "subject": "Кировская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1128,
+    "fields": {
+      "name": "Яровое",
+      "subject": "Алтайский край",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1129,
+    "fields": {
+      "name": "Ярославль",
+      "subject": "Ярославская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1130,
+    "fields": {
+      "name": "Ярцево",
+      "subject": "Смоленская область",
+      "type": "city"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1131,
+    "fields": {
+      "name": "Ясногорск",
+      "subject": "Тульская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1132,
+    "fields": {
+      "name": "Ясный",
+      "subject": "Оренбургская область",
+      "type": "village"
+    }
+  },
+  {
+    "model": "addresses.address",
+    "pk": 1133,
+    "fields": {
+      "name": "Яхрома",
+      "subject": "Московская область",
+      "type": "village"
+    }
+  }
+]
