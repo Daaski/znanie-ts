@@ -1,0 +1,189 @@
+@import "sccs/globals";
+
+.login {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s all;
+    z-index: 100;
+    &:hover {
+        color: $hover-color;
+        transition: 0.3s all;
+    }
+}
+
+.login_text {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.modal_wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: transparentize(black, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 15px;
+    z-index: 400;
+}
+
+.modal {
+    max-width: 678px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: white;
+    margin-top: 5%;
+    padding: 40px 20px 40px;
+    animation: Modal_Show .3s;
+}
+
+@keyframes Modal_Show {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.escape {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    transition: .3s all;
+    &:hover {
+        cursor: pointer;
+        color: $hover-color;
+        transition: .3s all;
+    }
+}
+
+.modal_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    animation: Menu_Show .1s ease-in-out;
+    @include phone {
+        width: 100%;
+    }
+}
+
+@keyframes Menu_Show {
+    0% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form_header {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+    @include phone {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.form_wrapper {
+    max-width: 100%;
+    width: 440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include phone {
+        width: 100%;
+    }
+}
+
+.form_header_buttons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form_header_button {
+    position: relative;
+    width: 50%;
+    padding: 13px 0 28px;
+    color: #666c77;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+    &:hover {
+        color: #181818;
+    }
+    &:before {
+            background-color: #181818;
+            bottom: 0;
+            content: "";
+            height: 2px;
+            left: 0;
+            position: absolute;
+            transition: width .3s ease;
+            width: 0;
+    }
+}
+
+.form_header_button_active {
+    @extend .form_header_button;
+    &:before {
+        width: 100%;
+    }
+}
+
+.submit_button {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 40px;
+    margin-top: 15px;
+    background: #426fff;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: .3s all;
+    @include phoneOrTablet {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    &:hover {
+        background: #2b54da;
+        transition: .3s all;
+    }
+    &:disabled {
+        cursor: not-allowed;
+        background: #e2e6ed;
+        color: #afb9cc;
+        &:hover {
+            background: #e2e6ed;
+        }
+    }
+}
+
+.other_text {
+    color: #5574d8;
+    font-size: 15px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding-bottom: 20px;
+}

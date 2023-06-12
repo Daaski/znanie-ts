@@ -1,0 +1,86 @@
+@import "sccs/globals";
+
+.projects_wrapper {
+  @include minPcWidth;
+}
+
+.projects_title {
+  font-weight: 400;
+  margin-top: 20px;
+  @include phone {
+    font-size: 20px;
+  }
+}
+
+.project_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  @include phoneOrTablet {
+    flex-direction: column-reverse;
+  }
+}
+
+.project_content {
+  width: 50%;
+  @include thousendTwoWidth {
+    width: 65%;
+  }
+  @include thousendWidth {
+    width: 50%;
+  }
+  @include phoneOrTablet {
+    width: 100%;
+  }
+}
+
+.project_title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 26px;
+  @include phone {
+    font-size: 19px;
+  }
+}
+
+.project_text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  @include phone {
+    font-size: 14px;
+  }
+}
+
+.project_button {
+  max-width: max-content;
+}
+
+.project_image_wrapper {
+  height: 363px;
+  min-width: 40%;
+  @include thousendTwoWidth {
+    height: 330px;
+    min-width: 35%;
+  }
+  @include thousendWidth {
+    min-width: 45%;
+  }
+  @include phoneOrTablet {
+    min-width: 75%;
+  }
+  @include phone {
+    height: 200px;
+  }
+}
+
+.project_image {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%
+}
+

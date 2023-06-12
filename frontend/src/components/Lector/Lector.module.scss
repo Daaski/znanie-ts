@@ -1,0 +1,47 @@
+@import "sccs/globals";
+
+.lector_container {
+    @include minPcWidth;
+}
+
+.lector_wrapper {
+  width: 100%;
+  padding: 14px 14px 20px 50px;
+  background: url('/images/Lectors/speaker-cover.jpg') center/cover no-repeat;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 30px;
+  @include phoneOrTablet {
+      padding: 14px 14px 24px;
+  }
+}
+
+.lector_content {
+  padding-top: 30px;
+}
+
+.lector_img_wrapper {
+  position: relative;
+  height: 193px;
+  width: 193px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.lector_title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.lector_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px 0 30px 0;
+  @include phoneOrTablet {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+

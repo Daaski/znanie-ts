@@ -1,0 +1,107 @@
+@import "sccs/globals";
+
+.menu_outer {
+  width: 100%;
+  height: 100%;
+  background: transparentize(black, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.menu_exit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: .2s all;
+  cursor: pointer;
+  color: #666c77;
+  &:hover {
+    color: $hover-color;
+    transition: .2s all;
+  }
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: max-content;
+  min-width: 450px;
+  height: 100%;
+  overflow-y: auto;
+  background: white;
+  padding: 50px 30px 50px 60px;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  z-index: 9999;
+  @include phoneOrTablet {
+    width: 95%;
+    min-width: 0;
+    padding-left: 70px;
+  }
+  @include phone {
+    padding: 50px 20px;
+  }
+}
+
+.menu_projects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+  transition: .3s all;
+  border-bottom: 1px solid #dfe1e3;
+  cursor: pointer;
+
+  &:hover {
+    color: $hover-color;
+    transition: .3s all;
+  }
+
+  &:hover svg {
+    color: $hover-color;
+    transition: .3s all;
+  }
+}
+
+.menu_projects_header {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu_projects_open {
+  @extend .menu_projects;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu_projects span {
+  margin-left: 15px;
+}
+
+.menu_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid #dfe1e3;
+}
+
+.menu_link {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  transition: .2s all;
+  color: #181818;
+
+  &:hover {
+    color: $hover-color;
+    transition: .2s all;
+  }
+}

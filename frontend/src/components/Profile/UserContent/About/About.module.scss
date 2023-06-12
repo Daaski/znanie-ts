@@ -1,0 +1,39 @@
+@import "sccs/globals";
+
+.form_about_container {
+  max-width: 400px;
+  display: flex;
+  align-items: flex-start;
+  @include phone {
+    flex-direction: column;
+  }
+}
+
+.form {
+  width: 100%;
+}
+
+.form_fullName_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  @include phone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.res_message {
+  color: $hover-color;
+  margin-bottom: 15px;
+  @include phone {
+    text-align: center;
+  }
+}

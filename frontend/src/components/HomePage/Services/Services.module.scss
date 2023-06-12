@@ -1,0 +1,93 @@
+@import 'sccs/globals';
+
+.services_layout {
+  @include minPcWidth;
+  padding: 60px 0;
+  @include phoneOrTablet {
+    padding: 20px 0;
+  }
+  @include phone {
+    padding: 0;
+  }
+}
+
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 9px;
+  @include thousendWidth {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include phone {
+    margin-bottom: 32px;
+  }
+}
+
+.grid_cell {
+  height: 294px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 25px 22px 25px 36px;
+  &:hover .grid_img {
+    transform: scale(1.05);
+    transition: .3s all ease-in-out;
+  }
+
+  &:hover .grid_content {
+    transform: translateY(-25%);
+    transition: .3s all ease-in-out;
+  }
+
+  @include thousendWidth {
+    height: 240px;
+  }
+
+  @include phoneOrTablet {
+    height: 200px;
+    padding: 12px;
+  }
+}
+
+.grid_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+  z-index: 200;
+  transition: .3s all ease-in-out;
+}
+
+.grid_title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  @include phoneOrTablet {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.grid_arrow {
+  width: 52px;
+  height: 52px;
+  color: black;
+  transform: rotate(45deg);
+  @include phoneOrTablet {
+    display: none;
+  }
+}
+
+.grid_img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transition: .3s all ease-in-out;
+  will-change: transform;
+}

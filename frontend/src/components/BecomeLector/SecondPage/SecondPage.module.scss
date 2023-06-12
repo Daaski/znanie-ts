@@ -1,0 +1,28 @@
+@import "sccs/globals";
+
+.second_page_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio_wrapper {
+  margin-bottom: 15px;
+  @include phone {
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.res_message {
+  color: $hover-color;
+  margin-bottom: 15px;
+  @include phone {
+    text-align: center;
+  }
+}

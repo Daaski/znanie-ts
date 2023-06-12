@@ -1,0 +1,47 @@
+@import "components/UI/Inputs/InputSelect/InputSelect.module.scss";
+
+.lector_wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.lector_image_wrapper {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.lector_image {
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.item_text {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.delete_lector_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background: #D53327;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+  margin-left: 10px;
+  &:hover {
+    background: red;
+  }
+}
+
+.delete_lector_button {
+  width: 13px;
+  height: 13px;
+  color: white;
+}

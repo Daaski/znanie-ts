@@ -1,0 +1,277 @@
+@import 'components/PremiaZnanie/PremiaZnanie.module.scss';
+
+.pastyear_layout {
+    @include pcWidth {
+        @include minPcWidth;
+    }
+    @include notPc {
+        @include center;
+    }
+}
+
+.pastyear {
+    padding: 75px 0 90px 0;
+}
+
+.pastyear_header {
+    display: flex;
+    text-align: left;
+    padding-bottom: 70px;
+    @include phoneOrTablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.pastyear_header_title {
+    @include mainTitle;
+    width: 50%;
+    @include bigtablet {
+        font-size: 28px;
+    }
+    @include phoneOrTablet {
+        width: 100%;
+        padding-bottom: 35px;
+    }
+}
+
+.pastyear_header_text {
+    @include text;
+    font-size: 18px;
+    width: 50%;
+    @include phoneOrTablet {
+        width: 100%;
+    }
+}
+
+.pastyear_main {
+    @include pcWidth {
+        display: grid;
+        grid-template-areas:
+            'video laureates'
+            'video applications';
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 28px;
+    }
+    @include notPc {
+        display: grid;
+        grid-template-areas:
+            'video video'
+            'laureates applications';
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(345px, 400px) minmax(200px, 288px);
+        grid-column-gap: 20px;
+        grid-row-gap: 28px;
+    }
+    @include phoneOrTablet {
+        display: flex;
+        flex-direction: column;
+    }
+    transition: 0.5s all;
+
+    &:hover,
+    &:after {
+        .video_play_wrapper {
+            transform: scale(0.9);
+            transition: 0.5s all;
+        }
+
+        .video_play {
+            transform: scale(1);
+            transition: 0.5s all;
+        }
+    }
+}
+
+.pastyear_main_video {
+    grid-area: video;
+    @include forPc {
+        min-height: 707px;
+        min-width: 48.8%;
+    }
+    @include bigtablet {
+        max-width: 100%;
+    }
+    @include phoneOrTablet {
+        height: 345px;
+    }
+    background: url('/images/PremiaZnanie/pastyearbg.jpg') center/cover
+        no-repeat;
+    border-radius: 20px;
+    @include displayFlexCenter;
+
+    &:hover > .video_play_wrapper > .video_play {
+        transform: scale(1.1);
+        transition: 0.5s all;
+    }
+
+    &:hover > .video_play_wrapper {
+        transform: scale(0.9);
+        transition: 0.5s all;
+    }
+}
+
+.video_play_wrapper {
+    @include forPc {
+        min-height: 171px;
+        min-width: 171px;
+    }
+    @include notPc {
+        min-height: 90px;
+        min-width: 90px;
+    }
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 60px;
+    @include displayFlexCenter;
+    transition: 0.5s all;
+}
+
+.video_play {
+    color: white;
+    transform: scale(0.9);
+    transition: 0.5s all;
+    @include notPc {
+        height: 25px;
+        width: 20px;
+    }
+}
+
+.pastyear_main_laureates {
+    grid-area: laureates;
+    @include pastyearCards;
+    @include notPc {
+        padding: 30px 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @include phoneOrTablet {
+        height: 288px;
+    }
+}
+
+.laureates_header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.laureates_title_wrapper {
+}
+
+.laureates_title {
+    @include pastyearTitle;
+    @include notPc {
+        font-size: 22px;
+    }
+}
+
+.laureates_text {
+    @include title;
+    padding-top: 23px;
+    @include notPc {
+        font-size: 16px;
+    }
+}
+
+.laureates_arrow {
+    transition: 0.5s all;
+
+    &:hover,
+    &:after {
+        transform: scale(1.05);
+        transition: 0.5s all;
+        cursor: pointer;
+    }
+
+    @include notPc {
+        align-self: flex-start;
+        min-height: 55px;
+        min-width: 55px;
+        max-width: 55px;
+        max-height: 55px;
+    }
+}
+
+.laureates_amount {
+    @include pastyearAmount;
+    @include forPc {
+        padding-top: 85px;
+    }
+    @include notPc {
+        font-size: 60px;
+    }
+}
+
+.pastyear_main_application {
+    grid-area: applications;
+    @include pastyearCards;
+    display: flex;
+    justify-content: space-between;
+    @include notPc {
+        flex-direction: column;
+        padding: 30px 23px;
+    }
+}
+
+.application_collected_wrapper,
+.application_laureates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @include notPc {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.application_border {
+    height: 100%;
+    width: 1px;
+    background: #c6c6c6;
+    @include notPc {
+        display: none;
+    }
+}
+
+.application_laureates {
+    @include forPc {
+        align-items: flex-start;
+    }
+    @include notPc {
+        border-top: 2px solid #c6c6c6;
+    }
+}
+
+.application_laureates_title,
+.application_collected_title {
+    @include pastyearTitle;
+    padding-bottom: 90px;
+    @include notPc {
+        padding: 0;
+        font-size: 22px;
+    }
+}
+
+.application_laureates_title {
+    @include notPc {
+        padding-top: 20px;
+    }
+}
+
+.application_collected_amount,
+.application_laureates_amount {
+    @include pastyearAmount;
+    @include notPc {
+        padding-top: 20px;
+        font-size: 60px;
+    }
+}
+
+.application_collected_amount {
+    @include phoneOrTablet {
+        padding-bottom: 33px;
+    }
+}

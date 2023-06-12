@@ -1,0 +1,33 @@
+@import "sccs/globals";
+@import "components/Header/dropdowns/utils.module";
+
+.dropdown_wrapper {
+  @include wrapper(350);
+  @include phone {
+    width: 100%;
+  }
+  background: white;
+}
+
+.dropdown_item_wrapper {
+  border-bottom: 1px solid #d6ddea;
+  padding: 14px 0;
+  width: 100%;
+}
+
+.dropdown_text {
+  margin-left: 15px;
+}
+
+
+
+.dropdown_img_wrapper {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background: #426fff 50%/cover no-repeat;
+  border-radius: 18px;
+}
+
+
+
