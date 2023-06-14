@@ -1,7 +1,6 @@
 import os
 from datetime import timedelta
 from pathlib import Path
-from corsheaders.defaults import default_headers
 
 from dotenv import load_dotenv
 
@@ -15,9 +14,7 @@ DEBUG = os.environ.get('POSTGRES_DB')
 
 ALLOWED_HOSTS = ["*"]
 
-
 CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://51.250.80.71:3000',]
-
 
 
 CORS_ORIGIN_ALLOW_ALL = True
