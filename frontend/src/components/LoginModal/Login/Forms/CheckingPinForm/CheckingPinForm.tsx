@@ -7,8 +7,10 @@ import { authToken } from 'http/userApi';
 import PinCodeInput from 'components/LoginModal/Login/Forms/CheckingPinForm/PinCodeInput';
 import { useUserStore } from 'store/UserStore';
 import { setFullUser } from 'lib/setFullUser';
+import { CheckingPinFormUtils } from 'components/LoginModal/Login/Forms/CheckingPinForm/CheckingPinForm.utils';
 
 import css from 'components/LoginModal/Login/Forms/CheckingPinForm/CheckingPinForm.module.scss';
+
 
 const generateCode = Math.floor(1000 + Math.random() * 9000)
     .toString()
@@ -42,6 +44,7 @@ export const CheckingPinForm = ({
             initialValues: ['', '', '', ''],
             onSubmit,
             validateOnMount: true,
+            validate: CheckingPinFormUtils
         });
 
     const handleChangeCode = () => {

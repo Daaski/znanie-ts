@@ -1,4 +1,5 @@
 @import 'components/LoginModal/Login/Login.module.scss';
+@import "sccs/globals";
 
 .code_message {
   position: absolute;
@@ -10,7 +11,16 @@
   color: black;
   font-size: 13px;
   text-transform: uppercase;
-  border: 1px solid #426fff;;
+  border: 1px solid #426fff;
+  @include phoneOrTablet {
+    padding: 10px;
+    font-size: 12px;
+  }
+  @include phone {
+    padding: 5px;
+    left: 5px;
+    top: 5px;
+  }
 }
 
 .checkPin_form {

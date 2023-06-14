@@ -27,6 +27,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     const end = ctx.query.end;
     const subject = ctx.query.subject;
 
+
     const res = await getFilterEvents(
         page as number | undefined,
         subject as string,
