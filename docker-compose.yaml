@@ -11,6 +11,7 @@ services:
       - POSTGRES_PORT=5432
     ports:
       - "8080:8080"
+    network_mode: host
     depends_on:
       db:
         condition: service_healthy
@@ -27,6 +28,7 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    network_mode: host
     command: python manage.py migrate
 
   db:
@@ -41,6 +43,7 @@ services:
       retries: 10
       timeout: 3s
     restart: always
+    network_mode: host
     volumes:
       - pgdata:/var/lib/postgresql/data/
 volumes:
