@@ -3,21 +3,8 @@ import * as process from 'process';
 
 export const $host = ky.create({
     prefixUrl: process.env.NEXT_PUBLIC_API_URL,
-    hooks: {
-        beforeRequest: [
-            (request) => {
-                corsInterceptor(request)
-            }
-        ]
-    }
 });
 
-const corsInterceptor = (request: Request) => {
-    request.headers.set(
-        'Origin',
-        'http://51.250.80.71:3000'
-    )
-}
 
 const authInterceptor = (request: Request) => {
     request.headers.set(
@@ -32,7 +19,6 @@ export const $auth = ky.create({
         beforeRequest: [
             (request) => {
                 authInterceptor(request);
-                corsInterceptor(request)
             },
         ],
     },
