@@ -22,11 +22,11 @@ export default function Home({ lectors }: HomePageProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-    /*const res = await ky
+    const res = await ky
         .get(process.env.NEXT_PUBLIC_API_URL + 'api/users/lectors')
-        .json();*/
+        .json();
 
     return {
-        props: { lectors: [] },
+        props: { lectors: res },
     };
 };
