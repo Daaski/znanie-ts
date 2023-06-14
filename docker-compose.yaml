@@ -9,8 +9,8 @@ services:
     environment:
       - POSTGRES_HOST=localhost
       - POSTGRES_PORT=5432
-
-    network_mode: host
+    ports:
+      - "8080:8080"
     depends_on:
       db:
         condition: service_healthy
@@ -27,20 +27,20 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    network_mode: host
     command: python manage.py migrate
 
   db:
     image: postgres:latest
     env_file:
       - ./backend/.env
+    ports:
+      - "5555:5432"
     healthcheck:
       test: pg_isready -U admin -d znanie
       interval: 3s
       retries: 10
       timeout: 3s
     restart: always
-    network_mode: host
     volumes:
       - pgdata:/var/lib/postgresql/data/
 volumes:
