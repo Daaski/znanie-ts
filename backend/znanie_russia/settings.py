@@ -16,7 +16,9 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://localhost', 'http://127.0.0.1:3000', 'http://51.250.80.71:3000',]
+CORS_
+
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://localhost', 'http://127.0.0.1:3000', 'http://51.250.80.71:3000', 'https://znanie.vercel.app/',]
 
 CORS_ALLOW_HEADERS = (
     "accept",
