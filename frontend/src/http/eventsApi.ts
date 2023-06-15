@@ -17,7 +17,7 @@ export const getFilterEvents: T.GetFilterEvents = async (
     searchParams.set('page', page.toString());
 
     return await $host
-        .get(`api/events`, {
+        .get(`/api/events`, {
             searchParams: searchParams,
         })
         .json();
