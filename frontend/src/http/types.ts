@@ -184,7 +184,32 @@ export type BecomeLectorType = (
     email: string,
     birthdate: string
 ) => Promise<{
-    role: 'lector';
+    pk: number;
+    phone: string;
+    surname: string;
+    name: string;
+    patronymic: string;
+    birthdate: string;
+    email: string;
+    gender: 'male' | 'female';
+    image: string;
+    role?: 'user' | 'lector';
+    address: {
+        pk: number;
+        name: string;
+        subject: string;
+        type: string;
+    };
+    education: {
+        pk: number;
+        graduated_year: string;
+        major: string;
+        place: string;
+    };
+    work: {
+        place: string;
+        position: string;
+    };
 }>;
 
 export type SelectedEventsResponse = IEvent[];

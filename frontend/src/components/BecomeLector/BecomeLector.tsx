@@ -44,15 +44,14 @@ export const BecomeLector = memo(function BecomeLector({
                     major: values.speciality,
                 },
                 { place: values.job, position: values.jobTitle },
-            ).then((r) => {
-                    setResUser(r, user, setUser);
+            ).then(() => {
                     becomeLector(
                         values.name,
                         values.surname,
                         values.patronymic,
                         values.email,
                         JSON.stringify(values.birthdate).slice(1, 11),
-                    ).then((r) => setUser({ ...user, role: r.role }));
+                    ).then((r) => setResUser(r, user, setUser));
                 },
             );
             router.replace('/').then();
