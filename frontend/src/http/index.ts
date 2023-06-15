@@ -2,7 +2,7 @@ import ky from 'ky';
 import * as process from 'process';
 
 export const $host = ky.create({
-    prefixUrl: process.env.NEXT_PUBLIC_API_URL,
+    prefixUrl: process.env.NEXT_PUBLIC_API_URL + '/',
 });
 
 

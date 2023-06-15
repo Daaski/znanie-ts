@@ -17,14 +17,14 @@ export const getFilterEvents: T.GetFilterEvents = async (
     searchParams.set('page', page.toString());
 
     return await $host
-        .get(`/api/events`, {
+        .get(`api/events`, {
             searchParams: searchParams,
         })
         .json();
 };
 
 export const getSingleEvent: T.GetSingleEvent = async (id) => {
-    return await $host.get('/api/events/' + id).json();
+    return await $host.get('api/events/' + id).json();
 };
 
 export const createEvent: T.CreateEvent = async (
@@ -49,13 +49,13 @@ export const createEvent: T.CreateEvent = async (
         formData.append('lectors', lectors[i]);
     }
 
-    return await $auth.post('/api/events/create/', { body: formData }).json();
+    return await $auth.post('api/events/create/', { body: formData }).json();
 };
 
 export const createPermissionEvent: (pk: number) => Promise<IEvent[]> = async (
     pk
 ) => {
-    return await $auth.post(`/api/users/created_event/event/${pk}/`).json();
+    return await $auth.post(`api/users/created_event/event/${pk}/`).json();
 };
 
 export const updateEvent: UpdateEvent = async (
@@ -84,16 +84,16 @@ export const updateEvent: UpdateEvent = async (
     }
 
     return await $auth
-        .patch(`/api/events/${pk}/update/`, { body: formData })
+        .patch(`api/events/${pk}/update/`, { body: formData })
         .json();
 };
 
 export const deleteEvent: T.DeleteEvent = async (pk) => {
-    return await $auth.delete(`/api/events/${pk}/delete`).json();
+    return await $auth.delete(`api/events/${pk}/delete`).json();
 };
 
 export const deletePermissionEvent: (pk: number) => Promise<void> = async (
     pk
 ) => {
-    return await $auth.delete(`/api/users/created_event/event/${pk}/`).json();
+    return await $auth.delete(`api/users/created_event/event/${pk}/`).json();
 };
