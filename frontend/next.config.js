@@ -47,7 +47,7 @@ const nextConfig = {
             },
             {
                 protocol: 'http',
-                hostname: '51.250.91.193',
+                hostname: '51.250.80.71',
                 port: '8080',
                 pathname: '/media/**',
             },
