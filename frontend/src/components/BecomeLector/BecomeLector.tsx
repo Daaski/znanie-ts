@@ -13,6 +13,7 @@ import Arrow from '/public/images/Arrows/rayArrow.svg';
 import { becomeLector, updateUser } from 'http/userApi';
 
 import css from './BecomeLector.module.scss';
+import { setResUser } from 'lib/setResUser';
 
 interface IBecomeLectorProps {
     user: IUser;
@@ -43,14 +44,16 @@ export const BecomeLector = memo(function BecomeLector({
                     major: values.speciality,
                 },
                 { place: values.job, position: values.jobTitle }
-            ).then(() =>
-                becomeLector(
-                    values.name,
-                    values.surname,
-                    values.patronymic,
-                    values.email,
-                    JSON.stringify(values.birthdate).slice(1, 11)
-                ).then((r) => setUser({ ...user, role: r.role }))
+            ).then((r) => {
+                setResUser(r, user, setUser)
+                    becomeLector(
+                        values.name,
+                        values.surname,
+                        values.patronymic,
+                        values.email,
+                        JSON.stringify(values.birthdate).slice(1, 11)
+                    ).then((r) => setUser({ ...user, role: r.role }))
+            }
             );
             router.replace('/').then();
             setSuccess({ message: 'Данные успешно сохранены', success: true });
