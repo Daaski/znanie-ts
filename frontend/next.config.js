@@ -2,6 +2,14 @@
 
 const nextConfig = {
     reactStrictMode: true,
+    async rewrites() {
+        return [
+            {
+                source: '/api/:path*',
+                destination: 'http://51.250.80.71:8080/api/:path*' // Proxy to Backend
+            }
+        ]
+    },
     webpack(config) {
         // Grab the existing rule that handles SVG imports
         const fileLoaderRule = config.module.rules.find((rule) =>
