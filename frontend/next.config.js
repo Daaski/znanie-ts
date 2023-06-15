@@ -6,7 +6,7 @@ const nextConfig = {
         return [
             {
                 source: '/api/:path*',
-                destination: 'http://51.250.80.71:8080/api/:path*' // Proxy to Backend
+                destination: 'http://localhost:8080/api/:path*'
             }
         ]
     },
@@ -47,7 +47,7 @@ const nextConfig = {
             },
             {
                 protocol: 'http',
-                hostname: '51.250.91.193',
+                hostname: '51.250.80.71',
                 port: '8080',
                 pathname: '/media/**',
             },
