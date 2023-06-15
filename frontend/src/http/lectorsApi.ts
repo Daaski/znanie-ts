@@ -12,3 +12,7 @@ export const getFilterLectorsFullName: T.GetFilterFullNameLectors = async (
     fullname = fullname?.toLowerCase();
     return await $host.get(`api/users/lectors/?fullname=${fullname}`).json();
 };
+
+export const getLector: T.GetLector = async (id) => {
+    return await $host.get(`api/users/lectors/${id}/`).json()
+}

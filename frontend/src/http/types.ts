@@ -101,6 +101,8 @@ export interface LectorType {
 
 export type GetFilterLectors = (q?: string) => Promise<LectorType[]>;
 
+export type GetLector = (id: string) => Promise<LectorType>
+
 export type GetFilterFullNameLectors = (
     fullname?: string
 ) => Promise<LectorType[]>;

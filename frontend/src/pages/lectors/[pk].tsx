@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { Lector } from 'components/Lector';
 import { Layout } from 'components/Layout/Layout';
 import { LectorType } from 'http/types';
-import { getFilterLectors } from 'http/lectorsApi';
+import { getFilterLectors, getLector } from 'http/lectorsApi';
 
 interface LectorPageProps {
     lector: LectorType;
@@ -30,7 +30,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     };
 };
 
-export const getStaticProps: GetStaticProps<{ lector: LectorType[] }> = async (
+export const getStaticProps: GetStaticProps<{ lector: LectorType }> = async (
     ctx
 ) => {
     const pk = ctx.params?.pk;
@@ -39,7 +39,7 @@ export const getStaticProps: GetStaticProps<{ lector: LectorType[] }> = async (
         if (!pk) {
             throw new Error('Не найдено');
         }
-        const res = await getFilterLectors();
+        const res = await getLector(pk as string);
         return Promise.resolve({
             props: { lector: res },
             revalidate: 60,
