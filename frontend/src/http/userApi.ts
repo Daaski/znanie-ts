@@ -3,12 +3,12 @@ import * as T from './types';
 
 export const authToken = async (tel: string, password: string) => {
     try {
-        const { refresh, access }: { refresh: string; access: string } =
+        const res =
             await $host
                 .post('/api/auth/token/', {
                     json: { phone: tel, password: password },
-                })
-                .json();
+                });
+        const { refresh, access }: { refresh: string; access: string } = res.data;
         localStorage.setItem('password', password);
         localStorage.setItem('refresh', refresh);
         localStorage.setItem('access', access);
@@ -22,10 +22,10 @@ export const registerUser: T.RegisterUser = async (
     phone,
     name,
     birthdate,
-    password
+    password,
 ) => {
     try {
-        return await $host
+        const res = await $host
             .post('/api/users/', {
                 json: {
                     phone: phone,
@@ -34,8 +34,8 @@ export const registerUser: T.RegisterUser = async (
                     birthdate: birthdate,
                     surname: surname,
                 },
-            })
-            .json();
+            });
+        return res.data;
     } catch (e: any) {
         return e.message;
     }
@@ -43,10 +43,11 @@ export const registerUser: T.RegisterUser = async (
 
 export const checkPhone: T.checkPhone = async (tel: string) => {
     try {
-        const { exist, password }: { exist: boolean; password: string } =
+        const res =
             await $host
-                .post('/api/users/check_phone/', { json: { phone: tel } })
-                .json();
+                .post('/api/users/check_phone/', { json: { phone: tel } });
+
+        const { exist, password }: { exist: boolean; password: string } = res.data;
         return { exist, password };
     } catch (e: any) {
         return e.message;
@@ -56,7 +57,8 @@ export const checkPhone: T.checkPhone = async (tel: string) => {
 export const getUser: T.GetUserTypes = async () => {
     try {
         if (localStorage.getItem('access')) {
-            return await $auth.get('/api/users/me/').json();
+            const res = await $auth.get('/api/users/me/');
+            return res.data;
         }
     } catch (e: any) {
         return e.message;
@@ -72,10 +74,10 @@ export const updateUser: T.UpdateUser = async (
     address,
     email,
     education,
-    work
+    work,
 ) => {
     try {
-        return await $auth
+        const res = await $auth
             .patch('/api/users/me/', {
                 json: {
                     surname: surname,
@@ -88,8 +90,8 @@ export const updateUser: T.UpdateUser = async (
                     education: education,
                     work: work,
                 },
-            })
-            .json();
+            });
+        return res.data;
     } catch (e: any) {
         return e.message;
     }
@@ -100,10 +102,10 @@ export const becomeLector: T.BecomeLectorType = async (
     surname,
     patronymic,
     email,
-    birthdate
+    birthdate,
 ) => {
     try {
-        return await $auth
+        const res = await $auth
             .patch('/api/users/become_lector/', {
                 json: {
                     name,
@@ -112,47 +114,53 @@ export const becomeLector: T.BecomeLectorType = async (
                     email,
                     birthdate,
                 },
-            })
-            .json();
+            });
+        return res.data;
     } catch (e: any) {
         return e.message;
     }
 };
 
 export const selectEvent: T.SelectEventType = async (id) => {
-    return await $auth.post(`/api/users/selected_event/event/${id}/`).json();
+    const res = await $auth.post(`/api/users/selected_event/event/${id}/`);
+    return res.data;
 };
 
 export const unsubscribeSelectEvent: T.UnSubscribeSelectEventType = async (
-    id
+    id,
 ) => {
-    return await $auth.delete(`/api/users/selected_event/event/${id}/`).json();
+    const res = await $auth.delete(`/api/users/selected_event/event/${id}/`);
+    return res.data;
 };
 
 export const updateUserImg: (
-    image: FileList
+    image: FileList,
 ) => Promise<{ image: string }> = async (image) => {
     const formData = new FormData();
     formData.append('image', image.item(0) as Blob);
-    return await $auth
-        .patch('/api/users/upload_image/', { body: formData })
-        .json();
+    const res = await $auth
+        .patch('/api/users/upload_image/', { body: formData });
+    return res.data;
 };
 
 export const likeEvent: T.LikeEventType = async (id) => {
-    return await $auth.post(`/api/users/like/event/${id}/`).json();
+    const res = await $auth.post(`/api/users/like/event/${id}/`);
+    return res.data;
 };
 
 export const unsubscribeLikeEvent: T.UnsubscribeLikeEventType = async (id) => {
-    return await $auth.delete(`/api/users/like/event/${id}/`).json();
+    const res = await $auth.delete(`/api/users/like/event/${id}/`)
+    return res.data
 };
 
 export const favoriteEvent: T.SubscribeFavorite = async (id) => {
-    return await $auth.post(`/api/users/favourite/event/${id}/`).json();
+    const res =  await $auth.post(`/api/users/favourite/event/${id}/`)
+    return res.data
 };
 
 export const unsubscribeFavoriteEvent: T.UnsubscribeFavoriteEvent = async (
-    id
+    id,
 ) => {
-    return await $auth.delete(`/api/users/favourite/event/${id}/`).json();
+    const res =  await $auth.delete(`/api/users/favourite/event/${id}/`)
+    return res.data
 };

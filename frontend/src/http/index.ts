@@ -8,7 +8,10 @@ export const $host = axios.create({
 
 export const $auth = axios.create({
     baseURL: process.env.NEXT_PUBLIC_API_URL,
-    headers: {
-        'Authorization': `Bearer ${localStorage.getItem('access')}`,
-    },
 });
+
+$auth.interceptors.request.use(res => {
+    res.headers.set('Authorization', `Bearer ${localStorage.getItem('access')}`)
+    return res
+})
+

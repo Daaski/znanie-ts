@@ -1,6 +1,5 @@
 import * as T from './types';
 import { $auth, $host } from 'http/index';
-import lectors from 'pages/lectors';
 import { IEvent } from 'store/types/userStore.types';
 import { UpdateEvent } from './types';
 
@@ -8,7 +7,7 @@ export const getFilterEvents: T.GetFilterEvents = async (
     page = 1,
     address = '',
     start = '',
-    end = ''
+    end = '',
 ) => {
     const searchParams = new URLSearchParams();
     searchParams.set('address', address);
@@ -16,15 +15,16 @@ export const getFilterEvents: T.GetFilterEvents = async (
     searchParams.set('end', end);
     searchParams.set('page', page.toString());
 
-    return await $host
+    const res = await $host
         .get(`/api/events`, {
-            searchParams: searchParams,
-        })
-        .json();
+            params: searchParams,
+        });
+    return res.data;
 };
 
 export const getSingleEvent: T.GetSingleEvent = async (id) => {
-    return await $host.get('/api/events/' + id).json();
+    const res = await $host.get('/api/events/' + id);
+    return res.data;
 };
 
 export const createEvent: T.CreateEvent = async (
@@ -35,7 +35,7 @@ export const createEvent: T.CreateEvent = async (
     end,
     address,
     image,
-    lectors
+    lectors,
 ) => {
     const formData = new FormData();
     formData.append('name', name);
@@ -49,13 +49,15 @@ export const createEvent: T.CreateEvent = async (
         formData.append('lectors', lectors[i]);
     }
 
-    return await $auth.post('/api/events/create/', { body: formData }).json();
+    const res = await $auth.post('/api/events/create/', formData);
+    return res.data;
 };
 
 export const createPermissionEvent: (pk: number) => Promise<IEvent[]> = async (
-    pk
+    pk,
 ) => {
-    return await $auth.post(`/api/users/created_event/event/${pk}/`).json();
+    const res = await $auth.post(`/api/users/created_event/event/${pk}/`);
+    return res.data;
 };
 
 export const updateEvent: UpdateEvent = async (
@@ -67,7 +69,7 @@ export const updateEvent: UpdateEvent = async (
     end,
     address,
     image,
-    lectors
+    lectors,
 ) => {
     const formData = new FormData();
     formData.append('name', name);
@@ -83,17 +85,19 @@ export const updateEvent: UpdateEvent = async (
         formData.append('lectors', lectors[i]);
     }
 
-    return await $auth
-        .patch(`/api/events/${pk}/update/`, { body: formData })
-        .json();
+    const res = await $auth
+        .patch(`/api/events/${pk}/update/`, formData);
+    return res.data;
 };
 
 export const deleteEvent: T.DeleteEvent = async (pk) => {
-    return await $auth.delete(`/api/events/${pk}/delete`).json();
+    const res = await $auth.delete(`/api/events/${pk}/delete`)
+    return res.data
 };
 
 export const deletePermissionEvent: (pk: number) => Promise<void> = async (
-    pk
+    pk,
 ) => {
-    return await $auth.delete(`/api/users/created_event/event/${pk}/`).json();
+    const res =  await $auth.delete(`/api/users/created_event/event/${pk}/`)
+    return res.data
 };

@@ -3,16 +3,19 @@ import { $host } from 'http/index';
 
 export const getFilterLectors: T.GetFilterLectors = async (q) => {
     q = q?.toLowerCase();
-    return await $host.get(`/api/users/lectors/?surname=${q}`).json();
+    const res = await $host.get(`/api/users/lectors/?surname=${q}`);
+    return res.data
 };
 
 export const getFilterLectorsFullName: T.GetFilterFullNameLectors = async (
     fullname
 ) => {
     fullname = fullname?.toLowerCase();
-    return await $host.get(`/api/users/lectors/?fullname=${fullname}`).json();
+    const res = await $host.get(`/api/users/lectors/?fullname=${fullname}`);
+    return res.data
 };
 
 export const getLector: T.GetLector = async (id) => {
-    return await $host.get(`/api/users/lectors/${id}/`).json()
+    const res =await $host.get(`/api/users/lectors/${id}/`)
+    return res.data
 }
