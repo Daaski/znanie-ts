@@ -12,11 +12,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = os.environ.get('POSTGRES_DB')
 
-ALLOWED_HOSTS = ['localhost', '51.250.80.71', default=['51.250.80.71:3000']
+ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://localhost', 'http://127.0.0.1:3000', 'http://51.250.80.71:3000',]
 
-CORS_ORIGIN_ALLOW_ALL = True
 
 
 INSTALLED_APPS = [
