@@ -6,7 +6,10 @@ const nextConfig = {
         return [
             {
                 source: '/api/:path*',
-                destination: 'http://51.250.80.71:8080/api/:path*', // Proxy to Backend
+                destination: 'http://51.250.80.71:8080/api/:path*',
+                headers: {
+                    referrer: '51.250.80.71:8080'
+                }// Proxy to Backend
             }
         ]
     },
