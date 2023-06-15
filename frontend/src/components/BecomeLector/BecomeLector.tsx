@@ -21,9 +21,9 @@ interface IBecomeLectorProps {
 }
 
 export const BecomeLector = memo(function BecomeLector({
-    user,
-    setUser,
-}: IBecomeLectorProps) {
+                                                           user,
+                                                           setUser,
+                                                       }: IBecomeLectorProps) {
     const [page, setPage] = useState(1);
     const [success, setSuccess] = useState({ success: false, message: '' });
     const router = useRouter();
@@ -43,17 +43,17 @@ export const BecomeLector = memo(function BecomeLector({
                     graduated_year: values.educationEnd,
                     major: values.speciality,
                 },
-                { place: values.job, position: values.jobTitle }
+                { place: values.job, position: values.jobTitle },
             ).then((r) => {
-                setResUser(r, user, setUser)
+                    setResUser(r, user, setUser);
                     becomeLector(
                         values.name,
                         values.surname,
                         values.patronymic,
                         values.email,
-                        JSON.stringify(values.birthdate).slice(1, 11)
-                    ).then((r) => setUser({ ...user, role: r.role }))
-            }
+                        JSON.stringify(values.birthdate).slice(1, 11),
+                    ).then((r) => setUser({ ...user, role: r.role }));
+                },
             );
             router.replace('/').then();
             setSuccess({ message: 'Данные успешно сохранены', success: true });
@@ -81,9 +81,9 @@ export const BecomeLector = memo(function BecomeLector({
             address:
                 user.addressId !== 0
                     ? {
-                          id: user.addressId,
-                          name: `${user.addressSubject}, г. ${user.addressName}`,
-                      }
+                        id: user.addressId,
+                        name: `${user.addressSubject}, г. ${user.addressName}`,
+                    }
                     : { id: 0, name: '' },
             job: user.job,
             jobTitle: user.jobTitle,
@@ -157,7 +157,7 @@ export const BecomeLector = memo(function BecomeLector({
                             priority={true}
                             fill
                             src={becomeLectorImg}
-                            alt="Станьте Лектором"
+                            alt='Станьте Лектором'
                         />
                     </span>
                 </div>
