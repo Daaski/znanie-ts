@@ -3,7 +3,6 @@ import React, { memo, useState } from 'react';
 import { useRouter } from 'next/router';
 
 import { FirstPage } from 'components/BecomeLector/FirstPage';
-import { IUser } from 'store/types/userStore.types';
 import becomeLectorImg from '/public/images/BecomeLector/becomeLector.png';
 import { useFormik } from 'formik';
 import * as T from './BecomeLector.types';
@@ -11,14 +10,11 @@ import { SecondPage } from 'components/BecomeLector/SecondPage';
 import { BecomeLectorsValidate } from 'components/BecomeLector/BecomeLectors.utils';
 import Arrow from '/public/images/Arrows/rayArrow.svg';
 import { becomeLector, updateUser } from 'http/userApi';
+import { setResUser } from 'lib/setResUser';
+import { IBecomeLectorProps } from './BecomeLector.types';
 
 import css from './BecomeLector.module.scss';
-import { setResUser } from 'lib/setResUser';
 
-interface IBecomeLectorProps {
-    user: IUser;
-    setUser: (user: IUser) => void;
-}
 
 export const BecomeLector = memo(function BecomeLector({
                                                            user,

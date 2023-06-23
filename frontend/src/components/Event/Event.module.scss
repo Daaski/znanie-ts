@@ -96,39 +96,6 @@
 }
 
 
-.registration_content {
-  height: max-content;
-  width: 489px;
-  padding: 56px 66px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #edeff3;
-  border-radius: 22px;
-  margin-left: 30px;
-  @include thousendWidth {
-    margin: 20px auto 0 auto;
-  }
-  @include phoneOrTablet {
-    width: calc(85vw - 17px);
-    padding: 30px;
-  }
-  @include phone {
-    width: 100%;
-  }
-}
-
-.registration_date {
-  color: #666c77;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 50px;
-  @include thousendWidth {
-    margin-bottom: 30px;
-  }
-}
 
 .registration_register_button {
   width: 100%;
@@ -139,98 +106,6 @@
   border: none;
   color: #fff;
   margin-bottom: 20px;
-}
-
-.button_wrapper {
-  width: 100%;
-}
-
-.event_service_wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 15px;
-  color: #666c77;
-  @include phone {
-    flex-direction: column;
-  }
-}
-
-.event_service {
-  display: flex;
-  cursor: pointer;
-  transition: .2s all ease-in-out;
-  @include phone {
-    width: 150px;
-    justify-content: center;
-    &:last-child {
-      margin-top: 10px;
-    }
-  }
-  &:hover {
-    color: $hover-color;
-  }
-  &:hover .event_service_img {
-    color: $hover-color;
-  }
-}
-
-.event_service_img {
-  width: 20px;
-  height: 20px;
-  color: #666c77;
-  transition: .2s all ease-in-out;
-  margin-right: 6px;
-}
-
-.event_service_img_active {
-  @extend .event_service_img;
-  fill: $hover-color;
-  color: $hover-color;
-}
-
-.lectors {
-  padding: 30px 0;
-}
-
-.lectors_header {
-  width: 100%;
-  border-bottom: 1px solid #dfe1e4;
-}
-
-.lectors_header_title {
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 42px;
-  text-align: left;
-  padding-bottom: 30px;
-}
-
-.lectors_swiper_wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
-  @include phone {
-    max-width: 90%;
-    margin: 30px auto 0 auto;
-  }
-}
-
-.lector_slide_wrapper {
-  display: flex !important;
-  justify-content: center;
-  min-width: 300px;
-  @include phoneOrTablet {
-    min-width: 50%;
-  }
-  @include phone {
-    max-width: 230px;
-    flex-shrink: 1!important;
-    padding-right: 10px;
-    margin-left: 40px;
-  }
 }
 
 .lectors_slide_arrow {
@@ -247,12 +122,3 @@
 
 }
 
-.lectors_slide_prev {
-  @extend .lectors_slide_arrow;
-  transform: rotate(-135deg);
-}
-
-.lectors_slide_next {
-  @extend .lectors_slide_arrow;
-  transform: rotate(45deg);
-}

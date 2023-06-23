@@ -16,7 +16,6 @@ import {
 } from 'components/Events/Calendar/Helper';
 
 import css from './Calendar.module.scss';
-
 import 'swiper/scss/free-mode';
 import 'swiper/scss';
 

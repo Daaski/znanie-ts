@@ -1,7 +1,6 @@
 import {
     forwardRef,
     MouseEventHandler,
-    MutableRefObject,
     useState,
 } from 'react';
 
@@ -11,7 +10,6 @@ import ru from 'date-fns/locale/ru';
 
 import css from './PickDate.module.scss';
 
-type date = { month?: number; day?: number };
 
 interface PickDateProps {
     start?: Date;

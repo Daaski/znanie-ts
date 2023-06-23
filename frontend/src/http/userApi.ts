@@ -6,7 +6,7 @@ export const authToken = async (tel: string, password: string) => {
         const res =
             await $host
                 .post('/api/auth/token/', {
-                    json: { phone: tel, password: password },
+                    phone: tel, password: password
                 });
         const { refresh, access }: { refresh: string; access: string } = res.data;
         localStorage.setItem('password', password);
@@ -27,13 +27,13 @@ export const registerUser: T.RegisterUser = async (
     try {
         const res = await $host
             .post('/api/users/', {
-                json: {
+
                     phone: phone,
                     password: password,
                     name: name,
                     birthdate: birthdate,
                     surname: surname,
-                },
+
             });
         return res.data;
     } catch (e: any) {
@@ -45,7 +45,7 @@ export const checkPhone: T.checkPhone = async (tel: string) => {
     try {
         const res =
             await $host
-                .post('/api/users/check_phone/', { json: { phone: tel } });
+                .post('/api/users/check_phone/', { phone: tel });
 
         const { exist, password }: { exist: boolean; password: string } = res.data;
         return { exist, password };
@@ -79,7 +79,7 @@ export const updateUser: T.UpdateUser = async (
     try {
         const res = await $auth
             .patch('/api/users/me/', {
-                json: {
+
                     surname: surname,
                     name: name,
                     patronymic: patronymic,
@@ -89,7 +89,7 @@ export const updateUser: T.UpdateUser = async (
                     email: email,
                     education: education,
                     work: work,
-                },
+
             });
         return res.data;
     } catch (e: any) {
@@ -107,13 +107,13 @@ export const becomeLector: T.BecomeLectorType = async (
     try {
         const res = await $auth
             .patch('/api/users/become_lector/', {
-                json: {
+
                     name,
                     surname,
                     patronymic,
                     email,
                     birthdate,
-                },
+
             });
         return res.data;
     } catch (e: any) {
@@ -139,7 +139,7 @@ export const updateUserImg: (
     const formData = new FormData();
     formData.append('image', image.item(0) as Blob);
     const res = await $auth
-        .patch('/api/users/upload_image/', { body: formData });
+        .patch('/api/users/upload_image/',  formData);
     return res.data;
 };
 

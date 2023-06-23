@@ -1,0 +1,1 @@
+export {LectorSwiper} from './LectorSwiper'

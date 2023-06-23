@@ -1,4 +1,4 @@
-import { ForwardedRef, forwardRef, MutableRefObject } from 'react';
+import {  forwardRef, MutableRefObject } from 'react';
 import { useRouter } from 'next/router';
 
 import Image from 'next/image';
